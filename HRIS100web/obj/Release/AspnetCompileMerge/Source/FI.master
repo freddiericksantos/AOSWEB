@@ -1,0 +1,148 @@
+﻿<%@ Master Language="VB" MasterPageFile="~/AOS100_main.Master" AutoEventWireup="false" CodeBehind="FI.master.vb" Inherits="AOS100web.FI" %>
+
+<%--<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+	
+</asp:Content>--%>
+
+
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+	<link href="css/TreeView.css" rel="stylesheet" />
+	<br />
+	<br />
+	<style type="text/css">
+		div {
+			z-index: 9999;
+		}
+	</style>
+
+	<table style="font-family: Segoe UI; float: left; position: absolute;">
+		<tr>
+			<td style="height: auto; width: auto; float: left; padding-left: 0px; margin-left: 1px; border-top-width: 2px; border-top-color: red; border-top-style: solid;">
+				<asp:Panel ID="Panel1" runat="server" BorderWidth="1px" BorderColor="WhiteSmoke" Width="282px" Height="828px"  ScrollBars="Vertical">
+					<asp:TreeView ID="tvwMenuItems" runat="server" BorderColor="#ffffcc" BorderStyle="Solid" ForeColor="Black" Style=" margin-top: 1px; margin-left: 1px; margin-left: 1px; margin-bottom: 1px; padding-left: 2px; width: 98%"
+						Font-Names="Segoe UI" Font-Size="10pt" BorderWidth="1px" NodeStyle-HorizontalPadding="5px" SelectedNodeStyle-BackColor="#ffff66" BackColor="#ffffcc" RootNodeStyle-Font-Bold="true" ShowExpandCollapse="False">
+
+						<%--<Nodes>
+							<asp:TreeNode ImageUrl="~/images/FI_icon24.png" Text="Financial Accounting" Value="Financial Accounting">
+								<asp:TreeNode Text="" Value="FI"></asp:TreeNode>
+							</asp:TreeNode>
+
+							<asp:TreeNode Text="Sales Accounting" Value="Sales Accounting">
+								<asp:TreeNode Text="Deposit Application" Value="Deposit Application"></asp:TreeNode>
+								<asp:TreeNode Text="Selling Price Update" Value="Selling Price Update"></asp:TreeNode>
+								<asp:TreeNode Text="Discount Update" Value="Discount Update"></asp:TreeNode>
+							</asp:TreeNode>
+
+							<asp:TreeNode Text="Account Payables" Value="Account Payables">
+								<asp:TreeNode Text="Voucher Payable" Value="Voucher Payable"></asp:TreeNode>
+								<asp:TreeNode Text="Weekly Expense" Value="Weekly Expense"></asp:TreeNode>
+								<asp:TreeNode Text="CA Liquidation" Value="CA Liquidation"></asp:TreeNode>
+								<asp:TreeNode Text="Commission Module" Value="Commission Module"></asp:TreeNode>
+								<asp:TreeNode Text="Vendor Debit Memo" Value="Vendor Debit Memo"></asp:TreeNode>
+								<asp:TreeNode Text="A/P Reports" Value="APreports"></asp:TreeNode>
+							</asp:TreeNode>
+
+							<asp:TreeNode Text="Account Receivables" Value="Account Receivables">
+								<asp:TreeNode Text="Customer DM/CM" Value="Customer DM/CMg"></asp:TreeNode>
+								<asp:TreeNode Text="A/R Reports" Value="ARreports"></asp:TreeNode>
+							</asp:TreeNode>
+
+							<asp:TreeNode Text="FI Approval/Posting" Value="FI Approval/Posting">
+								<asp:TreeNode Text="Document Posting" Value="Document Posting"></asp:TreeNode>
+								<asp:TreeNode Text="Deposit Confirmation" Value="Deposit Confirmation"></asp:TreeNode>
+							</asp:TreeNode>
+
+							<asp:TreeNode Text="Cashiering" Value="Cashiering">
+								<asp:TreeNode Text="Collection" Value="Collection"></asp:TreeNode>
+								<asp:TreeNode Text="Cashier's Daily Collection Report" Value="Cashier's Daily Collection Report"></asp:TreeNode>
+								<asp:TreeNode Text="Bank Deposit" Value="Bank Deposit"></asp:TreeNode>
+								<asp:TreeNode Text="Check Voucher" Value="Check Voucher"></asp:TreeNode>
+								<asp:TreeNode Text="Petty Cash Voucher" Value="Petty Cash Voucher"></asp:TreeNode>
+								<asp:TreeNode Text="Fund Replenishment" Value="Fund Replenishment"></asp:TreeNode>
+								<asp:TreeNode Text="Bank Recon" Value="Bank Recon"></asp:TreeNode>
+								<asp:TreeNode Text="Cashier's Reports" Value="Cashier's Reports"></asp:TreeNode>
+							</asp:TreeNode>
+
+							<asp:TreeNode Text="Asset Management" Value="Asset Management">
+								<asp:TreeNode Text="Asset Entry" Value="Asset Entry"></asp:TreeNode>
+								<asp:TreeNode Text="Depreciation" Value="Depreciation"></asp:TreeNode>
+							</asp:TreeNode>
+
+							<asp:TreeNode Text="Controlling" Value="Controlling">
+								<asp:TreeNode Text="Costing Module" Value="Costing Module"></asp:TreeNode>
+								<asp:TreeNode Text="COS vs ASP Analysis" Value="COSvsASP"></asp:TreeNode>
+								<asp:TreeNode Text="Budget Data Entry" Value="Budget Data Entry"></asp:TreeNode>
+								<asp:TreeNode Text="Budget Monitoring" Value="Budget Monitoring"></asp:TreeNode>
+								<asp:TreeNode Text="Fund Cash Count" Value="Fund Cash Count"></asp:TreeNode>
+								<asp:TreeNode Text="Prepaid Expense" Value="Prepaid Expense"></asp:TreeNode>
+							</asp:TreeNode>
+
+							<asp:TreeNode Text="General Ledger" Value="General Ledger">
+								<asp:TreeNode Text="Journal Voucher Entry" Value="Journal Voucher Entry"></asp:TreeNode>
+								<asp:TreeNode Text="Edit Auto JV Entry" Value="Edit Auto JV Entry"></asp:TreeNode>
+								<asp:TreeNode Text="JV Posting" Value="JV Posting"></asp:TreeNode>
+								<asp:TreeNode Text="Period Closing" Value="Period Closing"></asp:TreeNode>
+								<asp:TreeNode Text="Books of Accounts" Value="Books of Accounts"></asp:TreeNode>
+								<asp:TreeNode Text="GL Reports" Value="GL Reports"></asp:TreeNode>
+								<asp:TreeNode Text="Financial Reports" Value="FinReports"></asp:TreeNode>
+							</asp:TreeNode>
+
+							<asp:TreeNode Text="Taxation" Value="Taxation">
+								<asp:TreeNode Text="Value Added Tax" Value="Value Added Tax"></asp:TreeNode>
+								<asp:TreeNode Text="Edit Auto JV Entry" Value="Edit Auto JV Entry"></asp:TreeNode>
+								<asp:TreeNode Text="Vendor EWT" Value="Vendor EWT"></asp:TreeNode>
+								<asp:TreeNode Text="Customer's EWT" Value="Customer's EWT"></asp:TreeNode>
+								<asp:TreeNode Text="Tax Reports" Value="Tax Reports"></asp:TreeNode>
+							</asp:TreeNode>
+													
+							<asp:TreeNode Text="Masterdata Maintenance" Value="Masterdata Maintenance">
+								<asp:TreeNode Text="Chart of Accounts" Value="Chart of Accounts"></asp:TreeNode>
+								<asp:TreeNode Text="Cost Center" Value="Cost Center"></asp:TreeNode>
+								<asp:TreeNode Text="Profit Center" Value="Profit Center"></asp:TreeNode>
+								<asp:TreeNode Text="Vendor" Value="Vendor"></asp:TreeNode>
+								<asp:TreeNode Text="Bank Center" Value="Bank Center"></asp:TreeNode>
+							</asp:TreeNode>
+
+						</Nodes>--%>
+
+						<ParentNodeStyle BackColor="#0066FF" />
+
+					</asp:TreeView>
+
+				</asp:Panel>
+			</td>
+
+			<td style="height: auto; width: 1550px; float: left; margin-top: 0px; padding-top: 0px;">
+				<%--<div>--%>
+		
+					<asp:ContentPlaceHolder ID="ContentOfFinAcctg" runat="server">
+						
+
+					</asp:ContentPlaceHolder>
+							
+			<%--</div>--%>
+
+			</td>
+			
+		</tr>
+		
+		<tr style="border-style:solid; border-bottom-color: ghostwhite; height: 20px; background-color: #0c487a; text-align: left;" >
+			<td style=" height: auto; width: auto; float: left; margin-top: 0px; padding-top: 0px; text-align: center" colspan="12" >
+				&nbsp;&nbsp;
+				<asp:Label ID="lblUserID" runat="server" Font-Size="Smaller" ForeColor="White"></asp:Label>
+				&nbsp;&nbsp;
+				<asp:Label ID="lblGrpUser" runat="server" Font-Size="Smaller" ForeColor="White"></asp:Label>
+				&nbsp;&nbsp;
+				<asp:Label ID="lblBA" runat="server" Font-Size="Smaller" ForeColor="White"></asp:Label>
+				&nbsp;&nbsp;
+				<asp:CheckBox ID="CheckBox1" runat="server" AutoPostBack="true" Text="Hide Side Menu" Font-Size="Small" ForeColor="White"/>
+			</td>
+
+		</tr>
+
+	</table>
+
+	<%--<div id="MyTree">--%>
+
+	<%--</div>--%>
+</asp:Content>

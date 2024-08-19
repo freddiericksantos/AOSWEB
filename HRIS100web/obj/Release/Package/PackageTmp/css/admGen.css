@@ -1,0 +1,250 @@
+﻿.PayIDNo
+{
+    text-align: center;
+}
+.DaysNo
+{
+    text-align: center;
+}
+.DateBox
+{
+    text-align: center;
+}
+.TxtBox
+{
+    text-align: center;
+    padding-left: 1px;
+    padding-right: 1px;
+    width: 95%;
+    height: 100%;
+    
+}
+.txtBoxNimg {
+    text-align: center;
+    padding-left: 1px;
+    padding-right: 1px;
+    width: 75%;
+    height: 100%;
+}
+.txtAmtBox {
+    text-align: right;
+    padding-left: 1px;
+    padding-right: 1px;
+    width:95%;
+    height: 100%;
+}
+.txtBoxL {
+    text-align: left;
+    padding-left: 1px;
+    padding-right: 1px;
+    width: 98%;
+    height: 100%;
+}
+
+.txtBoxR {
+    text-align: right;
+    padding-left: 1px;
+    padding-right: 1px;
+    width: 98%;
+    height: 100%;
+}
+
+.txtBoxC {
+    text-align: center;
+    padding-left: 1px;
+    padding-right: 1px;
+    width: 96%;
+    height: 100%;
+    text-transform: capitalize;
+}
+
+.txtBoxG {
+    text-align: center;
+    padding-left: 1px;
+    padding-right: 1px;
+    width: 98%;
+    height: 99%;
+    text-transform: capitalize;
+}
+
+.txtBoxPer {
+    text-align: center;
+    height: 100%;
+}
+.txtSearch {
+    
+}
+.TxtBoxF {
+    float: left;
+    text-align: center;
+    padding-left: 1px;
+    padding-right: 1px;
+    width: 95%;
+    height: 100%;
+}
+.cboBox {
+    padding-left: 1px;
+    padding-right: 1px;
+    width: 100%;
+    height: 100%;
+}
+.cboBox2 {
+    padding-left: 1px;
+    padding-right: 1px;
+    width: 88%;
+    height: 100%;
+}
+.cboBox3 {
+    padding-left: 1px;
+    padding-right: 1px;
+    width: 95%;
+    height: 100%;
+}
+
+.lblLabelAmt {
+    padding-right: 2px;
+    text-align:right;
+}
+
+.lblTabLabCSS {
+    float: left ;
+    text-align: left;
+}
+
+.ImgBtn {
+    margin-top: 5px;
+    padding-bottom:5px;
+ }
+.ImgBtn2 {
+    vertical-align:middle;
+
+}
+.PanelStd {
+    /*padding-left: 1px;*/
+    padding-right: 1px; 
+   /* padding-top: 1px;
+   padding-bottom: 1px;*/
+    margin-right: 4px;
+    margin-top: 1px;
+    margin-left: 1px;
+    margin-bottom: 4px;
+    height: 99%;
+    width: 100%;
+}
+.PanelStd2 {
+    height: 99%;
+    width: 100%;
+    /*padding-left: 1px;*/
+    padding-right: 1px;
+    /* padding-top: 1px;
+   padding-bottom: 1px;*/
+    margin-right: 7px;
+    margin-top: 1px;
+    margin-left: 1px;
+    margin-bottom: 4px;
+}
+
+.TabPanel1 {
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: beige;
+}
+.RButton {
+    float: left;
+    margin-left: 5px;
+    text-align: left;
+}
+
+.StdBottomL {
+    border-top-left-radius: 6px;
+    /*border-top-right-radius: 4px;*/
+   /* border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;*/
+}
+.StdBottomR {
+    border-top-right-radius: 6px;
+    /*border-top-left-radius: 6px;*/
+    /* border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;*/
+}
+
+.SmlButton {
+    float: left;
+    text-align:center;
+    margin-left:3px;
+    height: 95%;
+    width: 80px;
+    font-family: 'Segoe UI';
+    font-size: small;
+
+}
+.StdButtLarge {
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    height: 46px;
+    width: 115px;
+    font-family: 'Segoe UI';
+    font-size: medium;
+    vertical-align: middle;
+    
+}
+
+.dgvPayID
+{
+    top: 184px;
+    height: 100%;
+}
+.dgvTable
+{
+    float: left;
+    position: relative;
+    top: 0px;
+    margin-top: 0px;
+}
+.MenuTable
+{
+    left: 50%;
+    right: 50%;
+    padding-left: 10px;
+}
+#admLogo
+{
+    top: 50%;
+    bottom:50%;
+}
+.MenuForm
+{
+    font-family: Tahoma;
+    font-size: 12px;
+}
+.raaadm
+{
+    text-decoration: none; 
+    background-color: #7fc6f6; 
+    padding-top: 1px; 
+    padding-bottom: 2px; 
+    font-family: Tahoma; 
+    font-size: 14px; 
+    color: white; 
+    margin-top: 3px; 
+    margin-right: 5px; 
+    padding-left: 5px; 
+    min-height: 22px;
+}
+.raaadm:hover
+{
+    background-color: #051885;
+}
+.footerStyle
+{
+    border-bottom-width: 4px;
+    border-bottom-color: red;
+}

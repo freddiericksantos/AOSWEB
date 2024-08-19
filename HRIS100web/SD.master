@@ -1,0 +1,100 @@
+﻿<%@ Master Language="VB" MasterPageFile="~/AOS100_main.Master" AutoEventWireup="false" CodeBehind="SD.master.vb" Inherits="AOS100web.SD" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+	<link href="css/TreeView.css" rel="stylesheet" />
+	<br />
+	<br />
+	<%--<style type="text/css">
+		div {
+			z-index: 9999;
+			/*position: fixed;*/
+		}
+	</style>--%>
+	<table style="font-family: Segoe UI; float: left; ">
+		<tr>
+			<td style="height: 80%; width: auto; float: left; padding-left: 0px; margin-left: 1px; border-top-width: 2px; border-top-color: red; border-top-style: solid;">
+				<asp:Panel ID="Panel1" runat="server" BorderWidth="1px" BorderColor="WhiteSmoke" Width="282px" Height="828px" BackColor="#ffffcc">
+					<asp:TreeView ID="tvwMenuItems" runat="server" BorderColor="#ffffcc" BorderStyle="Solid" ForeColor="Black" Style="margin-top: 1px; margin-left: 1px; margin-bottom: 1px;"
+						Width="261px" Font-Names="Segoe UI" Font-Size="10pt" BorderWidth="1px" NodeStyle-HorizontalPadding="5px" SelectedNodeStyle-BackColor="#ffff66" BackColor="#ffffcc" RootNodeStyle-Font-Bold="true" ShowExpandCollapse="False">
+						<Nodes>
+							<asp:TreeNode ImageUrl="~/images/SalesDist_24.png" Text="Sales And Distribution" Value="Sales And Distribution">
+								<asp:TreeNode Text="" Value="SD"></asp:TreeNode>
+							</asp:TreeNode>
+
+							<asp:TreeNode Text="Order Processing" Value="Order Processing">
+								<asp:TreeNode Text="Sales Order" Value="Sales Order"></asp:TreeNode>
+								<asp:TreeNode Text="SO Approval" Value="SO Approval"></asp:TreeNode>
+								<asp:TreeNode Text="SO Closing" Value="SO Closing"></asp:TreeNode>
+							</asp:TreeNode>
+
+							<asp:TreeNode Text="Billing" Value="Billing">
+								<asp:TreeNode Text="Sales Invoice" Value="Sales Invoice"></asp:TreeNode>
+							</asp:TreeNode>
+
+							<asp:TreeNode Text="Salesman Module" Value="SmnAccess">
+								<asp:TreeNode Text="Online Deposit" Value="Online Deposit"></asp:TreeNode>
+								<asp:TreeNode Text="Salesman's Access" Value="SmnQuery"></asp:TreeNode>
+								<asp:TreeNode Text="Sales Manager's Access" Value="MgrQuery"></asp:TreeNode>
+								<asp:TreeNode Text="Salesman's Access (Mobile)" Value="SmnQueryM"></asp:TreeNode>
+								<asp:TreeNode Text="Sales Manager's Access (Mobile)" Value="MgrQueryM"></asp:TreeNode>
+							</asp:TreeNode>
+
+							<asp:TreeNode Text="Sales & Dist Reports" Value="Sales & Dist Reports">
+								<asp:TreeNode Text="SD Reports" Value="SD Reports"></asp:TreeNode>
+							</asp:TreeNode>
+
+							<asp:TreeNode Text="Masterdata Maintenance" Value="Masterdata Maintenance">
+								<asp:TreeNode Text="Customer" Value="Customer"></asp:TreeNode>
+								<asp:TreeNode Text="Salesman" Value="Salesman"></asp:TreeNode>
+								<asp:TreeNode Text="Sales Area" Value="Sales Area"></asp:TreeNode>
+							</asp:TreeNode>
+
+						</Nodes>
+						<ParentNodeStyle BackColor="#0066FF" />
+					</asp:TreeView>
+				</asp:Panel>
+			</td>
+
+			<td style="height: auto; width: 1550px; float: left; margin-top: 0px; padding-top: 0px;">
+				<%--<div>--%>
+				<%--<asp:Panel ID="PanelSD" runat="server" ScrollBars="Both" Width="1555px" Height="835px">--%>
+				<style type="text/css">
+					div {
+						z-index: 9999;
+					}
+				</style>
+
+				<asp:ContentPlaceHolder ID="ContentOfSD" runat="server">
+
+
+				</asp:ContentPlaceHolder>
+
+				<%--</asp:Panel>--%>
+
+
+				<%--</div>--%>
+			</td>
+
+		</tr>
+
+		<tr style="height: 20px; background-color: #0c487a; text-align:center; ">
+			<td style=" height: auto; width: auto; float: left; margin-top: 0px; padding-top: 0px; text-align: left" colspan="12">
+				&nbsp;&nbsp;
+				<asp:Label ID="lblUserID" runat="server" Font-Size="Smaller" ForeColor="White"></asp:Label>
+				&nbsp;&nbsp;
+				<asp:Label ID="lblGrp" runat="server" Font-Size="Smaller" ForeColor="White"></asp:Label>
+				&nbsp;&nbsp;
+				<asp:CheckBox ID="CheckBox1" runat="server" AutoPostBack="true" Text="Hide Side Menu" Font-Size="Small" ForeColor="White"/>
+			</td>
+
+		</tr>
+
+	</table>
+
+</asp:Content>
+
+<%--<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
+</asp:Content>--%>

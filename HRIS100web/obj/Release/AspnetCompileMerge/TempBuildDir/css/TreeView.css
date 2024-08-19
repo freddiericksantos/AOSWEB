@@ -1,0 +1,13 @@
+﻿
+
+.MyTree 
+{
+	float:left;
+	position: fixed;
+	height: auto;
+	width: 280px;
+	font-family:'Segoe UI';
+	font-size: small;
+	z-index: 10;
+}
+

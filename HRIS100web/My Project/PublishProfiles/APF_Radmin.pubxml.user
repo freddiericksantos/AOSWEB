@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAArMkt5eanoEaOyMo2BH7hlwAAAAACAAAAAAAQZgAAAAEAACAAAACcFEnAfr7N8QUwW2RiwtVDMgfH7ygyGTMgplwu2N2/1AAAAAAOgAAAAAIAACAAAABtPxUbC2YeGjUfmVZ8Zf+EVkUr7g+YFGTYYEOCX5v/8hAAAACJPH/S2rXJTowlOgfZDl5hQAAAAJqmPKIYxxRNDcQIjUEFkbxWEpg+MWHIg+V5iu4zqy5hpwaAbCrgqrB/9JjhevJLfgIu49jDqEdqACs7jWdXhSo=</EncryptedPassword>
+    <_PublishTargetUrl>ftp://26.89.217.31/AOS100web</_PublishTargetUrl>
+    <History>False|2024-04-25T03:49:25.2581582Z;True|2023-04-12T09:20:05.4089628+08:00;True|2023-01-27T13:29:22.0574470+08:00;True|2023-01-27T12:20:10.1678059+08:00;True|2023-01-26T22:26:47.5256023+08:00;True|2023-01-20T19:08:17.1366779+08:00;True|2023-01-18T22:32:39.3672199+08:00;True|2023-01-18T20:56:25.5762758+08:00;True|2023-01-16T13:39:34.7486148+08:00;True|2023-01-16T10:43:59.1293748+08:00;True|2023-01-03T09:12:10.2266828+08:00;True|2022-12-29T18:21:52.9609896+08:00;False|2022-12-28T14:57:04.6997487+08:00;True|2022-12-21T20:54:17.3755673+08:00;True|2022-12-21T14:23:36.3287003+08:00;True|2022-12-19T15:48:31.8408654+08:00;True|2022-12-13T13:23:07.8468457+08:00;False|2022-12-12T09:28:37.3106954+08:00;False|2022-12-12T09:27:19.6578567+08:00;False|2022-12-12T09:25:21.6143762+08:00;False|2022-12-12T09:20:54.5816992+08:00;False|2022-12-12T09:19:36.2496191+08:00;False|2022-12-12T09:16:03.9582082+08:00;True|2022-12-05T14:59:48.4461179+08:00;False|2022-12-05T14:46:11.5562832+08:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="About.aspx">
+      <publishTime>01/20/2023 22:50:14</publishTime>
+    </File>
+    <File Include="Admin.master">
+      <publishTime>01/22/2024 10:18:37</publishTime>
+    </File>
+    <File Include="Administrator.aspx">
+      <publishTime>07/21/2023 13:42:26</publishTime>
+    </File>
+    <File Include="AOS100_main.Master">
+      <publishTime>05/13/2024 16:49:49</publishTime>
+    </File>
+    <File Include="APapp.aspx">
+      <publishTime>05/06/2023 10:24:20</publishTime>
+    </File>
+    <File Include="App_Data/Companies.ini">
+      <publishTime>11/09/2022 12:57:25</publishTime>
+    </File>
+    <File Include="App_Data/ServerAddresses.ini">
+      <publishTime>06/28/2020 15:49:39</publishTime>
+    </File>
+    <File Include="APReports.aspx">
+      <publishTime>05/09/2023 18:56:08</publishTime>
+    </File>
+    <File Include="ARreports.aspx">
+      <publishTime>04/10/2023 14:37:10</publishTime>
+    </File>
+    <File Include="bin/AjaxControlToolkit.dll">
+      <publishTime>05/30/2020 20:00:04</publishTime>
+    </File>
+    <File Include="bin/AOS100web.dll">
+      <publishTime>05/13/2024 17:11:36</publishTime>
+    </File>
+    <File Include="bin/AOS100web.pdb">
+      <publishTime>05/13/2024 17:11:36</publishTime>
+    </File>
+    <File Include="bin/AOS100web.xml">
+      <publishTime>05/13/2024 17:11:36</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.CrystalReports.Design.dll">
+      <publishTime>05/15/2019 13:28:06</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.CrystalReports.Engine.dll">
+      <publishTime>05/15/2019 13:28:08</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.Data.AdoDotNetInterop.dll">
+      <publishTime>05/15/2019 13:40:48</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportSource.dll">
+      <publishTime>05/15/2019 13:28:08</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.Shared.dll">
+      <publishTime>05/15/2019 13:28:08</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.Web.dll">
+      <publishTime>05/15/2019 13:28:08</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.Windows.Forms.dll">
+      <publishTime>05/15/2019 13:28:08</publishTime>
+    </File>
+    <File Include="bin/EditableDropDownList.dll">
+      <publishTime>11/23/2012 01:42:58</publishTime>
+    </File>
+    <File Include="bin/EnvDTE.dll">
+      <publishTime>03/10/2023 09:10:32</publishTime>
+    </File>
+    <File Include="bin/Microsoft.MSXML.dll">
+      <publishTime>03/10/2023 09:10:32</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ReportViewer.WinForms.dll">
+      <publishTime>06/28/2011 01:35:08</publishTime>
+    </File>
+    <File Include="bin/Microsoft.VisualStudio.Data.Tools.Design.Common.dll">
+      <publishTime>05/19/2016 09:33:12</publishTime>
+    </File>
+    <File Include="bin/Microsoft.VisualStudio.OLE.Interop.dll">
+      <publishTime>03/10/2023 09:10:32</publishTime>
+    </File>
+    <File Include="bin/Microsoft.VisualStudio.Shell.Interop.10.0.dll">
+      <publishTime>03/10/2023 09:10:32</publishTime>
+    </File>
+    <File Include="bin/Microsoft.VisualStudio.Shell.Interop.8.0.dll">
+      <publishTime>03/10/2023 09:10:32</publishTime>
+    </File>
+    <File Include="bin/Microsoft.VisualStudio.Shell.Interop.dll">
+      <publishTime>03/10/2023 09:10:32</publishTime>
+    </File>
+    <File Include="bin/Microsoft.VisualStudio.TextManager.Interop.8.0.dll">
+      <publishTime>03/10/2023 09:10:32</publishTime>
+    </File>
+    <File Include="bin/Microsoft.VisualStudio.TextManager.Interop.dll">
+      <publishTime>03/10/2023 09:10:32</publishTime>
+    </File>
+    <File Include="bin/MySql.Data.dll">
+      <publishTime>07/13/2009 15:48:36</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>02/10/2013 12:10:10</publishTime>
+    </File>
+    <File Include="bin/stdole.dll">
+      <publishTime>03/10/2023 09:10:32</publishTime>
+    </File>
+    <File Include="BudgetMonitor.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="CashierReports.aspx">
+      <publishTime>02/05/2024 10:46:20</publishTime>
+    </File>
+    <File Include="ChangePassword.aspx">
+      <publishTime>04/04/2024 13:00:40</publishTime>
+    </File>
+    <File Include="ClinicMonitoring.aspx">
+      <publishTime>12/21/2023 16:17:28</publishTime>
+    </File>
+    <File Include="Connected Services/SalesDist_24.png">
+      <publishTime>11/08/2022 21:42:02</publishTime>
+    </File>
+    <File Include="COSvsASP.aspx">
+      <publishTime>07/10/2023 15:05:54</publishTime>
+    </File>
+    <File Include="CS.aspx">
+      <publishTime>01/20/2023 22:53:30</publishTime>
+    </File>
+    <File Include="CS.aspx.cs">
+      <publishTime>06/04/2014 18:45:08</publishTime>
+    </File>
+    <File Include="css/about.css">
+      <publishTime>05/17/2020 12:55:26</publishTime>
+    </File>
+    <File Include="css/admGen.css">
+      <publishTime>04/10/2023 16:38:22</publishTime>
+    </File>
+    <File Include="css/admSubMaster.css">
+      <publishTime>10/28/2022 19:24:10</publishTime>
+    </File>
+    <File Include="css/jquery-1.11.2.js">
+      <publishTime>05/30/2020 10:09:20</publishTime>
+    </File>
+    <File Include="css/Login.css">
+      <publishTime>05/18/2020 11:47:52</publishTime>
+    </File>
+    <File Include="css/Main_adm.css">
+      <publishTime>11/19/2022 17:38:42</publishTime>
+    </File>
+    <File Include="css/Main_Master.css">
+      <publishTime>11/17/2022 10:14:02</publishTime>
+    </File>
+    <File Include="css/ModuleFooter.css">
+      <publishTime>11/17/2022 09:30:46</publishTime>
+    </File>
+    <File Include="css/StyleSheet.css">
+      <publishTime>05/30/2020 13:21:50</publishTime>
+    </File>
+    <File Include="css/testadm.css">
+      <publishTime>05/02/2020 12:41:18</publishTime>
+    </File>
+    <File Include="css/TreeView.css">
+      <publishTime>11/09/2022 13:16:48</publishTime>
+    </File>
+    <File Include="css_bootstrap/bootstrap-grid.css">
+      <publishTime>04/30/2020 14:59:06</publishTime>
+    </File>
+    <File Include="css_bootstrap/bootstrap-grid.css.map">
+      <publishTime>04/30/2020 14:59:06</publishTime>
+    </File>
+    <File Include="css_bootstrap/bootstrap-grid.min.css">
+      <publishTime>04/30/2020 14:59:06</publishTime>
+    </File>
+    <File Include="css_bootstrap/bootstrap-grid.min.css.map">
+      <publishTime>04/30/2020 14:59:06</publishTime>
+    </File>
+    <File Include="css_bootstrap/bootstrap-reboot.css">
+      <publishTime>04/30/2020 14:59:06</publishTime>
+    </File>
+    <File Include="css_bootstrap/bootstrap-reboot.css.map">
+      <publishTime>04/30/2020 14:59:06</publishTime>
+    </File>
+    <File Include="css_bootstrap/bootstrap-reboot.min.css">
+      <publishTime>04/30/2020 14:59:06</publishTime>
+    </File>
+    <File Include="css_bootstrap/bootstrap-reboot.min.css.map">
+      <publishTime>04/30/2020 14:59:06</publishTime>
+    </File>
+    <File Include="css_bootstrap/bootstrap.css">
+      <publishTime>04/30/2020 14:59:06</publishTime>
+    </File>
+    <File Include="css_bootstrap/bootstrap.css.map">
+      <publishTime>04/30/2020 14:59:06</publishTime>
+    </File>
+    <File Include="css_bootstrap/bootstrap.min.css">
+      <publishTime>04/30/2020 14:59:06</publishTime>
+    </File>
+    <File Include="css_bootstrap/bootstrap.min.css.map">
+      <publishTime>04/30/2020 14:59:06</publishTime>
+    </File>
+    <File Include="css_js/bootstrap.bundle.js">
+      <publishTime>04/30/2020 15:00:36</publishTime>
+    </File>
+    <File Include="css_js/bootstrap.bundle.js.map">
+      <publishTime>04/30/2020 15:00:36</publishTime>
+    </File>
+    <File Include="css_js/bootstrap.bundle.min.js">
+      <publishTime>04/30/2020 15:00:36</publishTime>
+    </File>
+    <File Include="css_js/bootstrap.bundle.min.js.map">
+      <publishTime>04/30/2020 15:00:36</publishTime>
+    </File>
+    <File Include="css_js/bootstrap.js">
+      <publishTime>04/30/2020 15:00:36</publishTime>
+    </File>
+    <File Include="css_js/bootstrap.js.map">
+      <publishTime>04/30/2020 15:00:36</publishTime>
+    </File>
+    <File Include="css_js/bootstrap.min.js">
+      <publishTime>04/30/2020 15:00:36</publishTime>
+    </File>
+    <File Include="css_js/bootstrap.min.js.map">
+      <publishTime>04/30/2020 15:00:36</publishTime>
+    </File>
+    <File Include="css_js/img/ui-bg_diagonals-thick_18_b81900_40x40.png">
+      <publishTime>11/17/2022 16:42:42</publishTime>
+    </File>
+    <File Include="css_js/img/ui-bg_diagonals-thick_20_666666_40x40.png">
+      <publishTime>11/17/2022 16:42:42</publishTime>
+    </File>
+    <File Include="css_js/img/ui-bg_flat_0_aaaaaa_40x100.png">
+      <publishTime>11/17/2022 16:42:42</publishTime>
+    </File>
+    <File Include="css_js/img/ui-bg_flat_10_000000_40x100.png">
+      <publishTime>11/17/2022 16:42:42</publishTime>
+    </File>
+    <File Include="css_js/img/ui-bg_flat_75_ffffff_40x100.png">
+      <publishTime>11/17/2022 16:42:42</publishTime>
+    </File>
+    <File Include="css_js/img/ui-bg_glass_100_f6f6f6_1x400.png">
+      <publishTime>11/17/2022 16:42:42</publishTime>
+    </File>
+    <File Include="css_js/img/ui-bg_glass_100_fdf5ce_1x400.png">
+      <publishTime>11/17/2022 16:42:42</publishTime>
+    </File>
+    <File Include="css_js/img/ui-bg_glass_65_ffffff_1x400.png">
+      <publishTime>11/17/2022 16:42:42</publishTime>
+    </File>
+    <File Include="css_js/img/ui-bg_glass_75_dadada_1x400.png">
+      <publishTime>11/17/2022 16:42:42</publishTime>
+    </File>
+    <File Include="css_js/img/ui-bg_glass_75_e6e6e6_1x400.png">
+      <publishTime>11/17/2022 16:42:42</publishTime>
+    </File>
+    <File Include="css_js/img/ui-bg_gloss-wave_35_f6a828_500x100.png">
+      <publishTime>11/17/2022 16:42:42</publishTime>
+    </File>
+    <File Include="css_js/img/ui-bg_highlight-soft_100_eeeeee_1x100.png">
+      <publishTime>11/17/2022 16:42:42</publishTime>
+    </File>
+    <File Include="css_js/img/ui-bg_highlight-soft_75_ffe45c_1x100.png">
+      <publishTime>11/17/2022 16:42:42</publishTime>
+    </File>
+    <File Include="css_js/img/ui-icons_222222_256x240.png">
+      <publishTime>11/17/2022 16:42:42</publishTime>
+    </File>
+    <File Include="css_js/img/ui-icons_228ef1_256x240.png">
+      <publishTime>11/17/2022 16:42:42</publishTime>
+    </File>
+    <File Include="css_js/img/ui-icons_454545_256x240.png">
+      <publishTime>11/17/2022 16:42:42</publishTime>
+    </File>
+    <File Include="css_js/img/ui-icons_888888_256x240.png">
+      <publishTime>11/17/2022 16:42:42</publishTime>
+    </File>
+    <File Include="css_js/img/ui-icons_ef8c08_256x240.png">
+      <publishTime>11/17/2022 16:42:42</publishTime>
+    </File>
+    <File Include="css_js/img/ui-icons_ffd27a_256x240.png">
+      <publishTime>11/17/2022 16:42:42</publishTime>
+    </File>
+    <File Include="css_js/img/ui-icons_ffffff_256x240.png">
+      <publishTime>11/17/2022 16:42:42</publishTime>
+    </File>
+    <File Include="css_js/jquery-1.6.4.min.js">
+      <publishTime>11/17/2022 16:42:24</publishTime>
+    </File>
+    <File Include="css_js/jquery-1.8.2.min.js">
+      <publishTime>11/17/2022 16:42:24</publishTime>
+    </File>
+    <File Include="css_js/jquery-ui-1.8.24.custom.min.js">
+      <publishTime>11/17/2022 16:42:24</publishTime>
+    </File>
+    <File Include="css_js/jquery-ui.css">
+      <publishTime>11/17/2022 16:42:42</publishTime>
+    </File>
+    <File Include="css_js/jquery.ui.autocomplete.js">
+      <publishTime>11/17/2022 16:42:24</publishTime>
+    </File>
+    <File Include="css_js/jquery.ui.button.js">
+      <publishTime>11/17/2022 16:42:24</publishTime>
+    </File>
+    <File Include="css_js/jquery.ui.combobox.js">
+      <publishTime>11/17/2022 16:42:24</publishTime>
+    </File>
+    <File Include="css_js/jquery.ui.core.js">
+      <publishTime>11/17/2022 16:42:24</publishTime>
+    </File>
+    <File Include="css_js/jquery.ui.position.js">
+      <publishTime>11/17/2022 16:42:24</publishTime>
+    </File>
+    <File Include="css_js/jquery.ui.widget.js">
+      <publishTime>11/17/2022 16:42:24</publishTime>
+    </File>
+    <File Include="DeliveryOrder.aspx">
+      <publishTime>01/25/2023 21:59:26</publishTime>
+    </File>
+    <File Include="DocConfig.aspx">
+      <publishTime>07/10/2023 15:07:26</publishTime>
+    </File>
+    <File Include="FI.master">
+      <publishTime>10/22/2023 20:29:32</publishTime>
+    </File>
+    <File Include="FinancialAccounting.aspx">
+      <publishTime>05/03/2023 18:03:58</publishTime>
+    </File>
+    <File Include="FS.aspx">
+      <publishTime>07/24/2023 13:24:34</publishTime>
+    </File>
+    <File Include="FSChemag.aspx">
+      <publishTime>07/03/2023 19:06:12</publishTime>
+    </File>
+    <File Include="GLReports.aspx">
+      <publishTime>05/03/2023 18:04:50</publishTime>
+    </File>
+    <File Include="Help.aspx">
+      <publishTime>02/05/2024 10:57:20</publishTime>
+    </File>
+    <File Include="Home.aspx">
+      <publishTime>05/13/2024 16:50:24</publishTime>
+    </File>
+    <File Include="images/about_new_16.png">
+      <publishTime>04/25/2020 12:14:36</publishTime>
+    </File>
+    <File Include="images/add_16.png">
+      <publishTime>06/16/2020 16:11:34</publishTime>
+    </File>
+    <File Include="images/adminLogo_24.png">
+      <publishTime>05/01/2020 18:51:34</publishTime>
+    </File>
+    <File Include="images/adminLogo_28.png">
+      <publishTime>05/01/2020 18:48:08</publishTime>
+    </File>
+    <File Include="images/AOS100ver_web_Logo_60.png">
+      <publishTime>10/28/2022 18:45:32</publishTime>
+    </File>
+    <File Include="images/AOS100_2024.ico">
+      <publishTime>05/13/2024 09:29:35</publishTime>
+    </File>
+    <File Include="images/AOS100_2024.png">
+      <publishTime>05/13/2024 09:27:43</publishTime>
+    </File>
+    <File Include="images/AOS100_2024_60px.png">
+      <publishTime>05/13/2024 10:31:09</publishTime>
+    </File>
+    <File Include="images/aos100_logoweb.gif">
+      <publishTime>02/27/2023 17:46:06</publishTime>
+    </File>
+    <File Include="images/aos100_logowebRev.gif">
+      <publishTime>02/27/2023 18:10:04</publishTime>
+    </File>
+    <File Include="images/AOS100_rev_2024.ico">
+      <publishTime>05/13/2024 10:32:45</publishTime>
+    </File>
+    <File Include="images/AOS100_rev_2024_noback.png">
+      <publishTime>05/13/2024 10:45:59</publishTime>
+    </File>
+    <File Include="images/AOSLogo5.png">
+      <publishTime>05/13/2024 15:06:49</publishTime>
+    </File>
+    <File Include="images/AOSLogo5rev_60.ico">
+      <publishTime>05/13/2024 15:03:55</publishTime>
+    </File>
+    <File Include="images/AOSLogo5rev_60.png">
+      <publishTime>05/13/2024 15:03:42</publishTime>
+    </File>
+    <File Include="images/AOSLogo6_nb.png">
+      <publishTime>05/13/2024 16:50:09</publishTime>
+    </File>
+    <File Include="images/AOSLogo6_nb60.ico">
+      <publishTime>05/13/2024 16:48:57</publishTime>
+    </File>
+    <File Include="images/AOSLogo6_nb60.png">
+      <publishTime>05/13/2024 16:49:10</publishTime>
+    </File>
+    <File Include="images/Arrow-down_16.png">
+      <publishTime>04/27/2020 11:27:06</publishTime>
+    </File>
+    <File Include="images/Arrow-down_8.png">
+      <publishTime>04/27/2020 11:29:14</publishTime>
+    </File>
+    <File Include="images/arrowLeft15.png">
+      <publishTime>10/30/2022 17:59:26</publishTime>
+    </File>
+    <File Include="images/arrowLeft20.png">
+      <publishTime>10/30/2022 17:51:18</publishTime>
+    </File>
+    <File Include="images/arrow_blue15.png">
+      <publishTime>10/30/2022 17:51:08</publishTime>
+    </File>
+    <File Include="images/assign_emp_24.png">
+      <publishTime>04/27/2020 17:41:08</publishTime>
+    </File>
+    <File Include="images/attendmast_24.png">
+      <publishTime>05/03/2020 12:18:08</publishTime>
+    </File>
+    <File Include="images/attenwhite_24.png">
+      <publishTime>04/30/2020 08:24:22</publishTime>
+    </File>
+    <File Include="images/atten_24.png">
+      <publishTime>04/30/2020 08:17:42</publishTime>
+    </File>
+    <File Include="images/bday_24.png">
+      <publishTime>05/01/2020 11:58:34</publishTime>
+    </File>
+    <File Include="images/building_24.png">
+      <publishTime>05/03/2020 11:22:20</publishTime>
+    </File>
+    <File Include="images/calculate_16.png">
+      <publishTime>06/14/2020 17:51:12</publishTime>
+    </File>
+    <File Include="images/cal_10_orig18.png">
+      <publishTime>04/25/2020 12:14:36</publishTime>
+    </File>
+    <File Include="images/cal_17_orig_18.png">
+      <publishTime>04/25/2020 12:14:36</publishTime>
+    </File>
+    <File Include="images/changepass_16.png">
+      <publishTime>05/02/2020 11:52:38</publishTime>
+    </File>
+    <File Include="images/changepass_24.png">
+      <publishTime>05/01/2020 18:17:58</publishTime>
+    </File>
+    <File Include="images/change_pass_16.png">
+      <publishTime>04/25/2020 12:14:36</publishTime>
+    </File>
+    <File Include="images/check_16.png">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/close_16.png">
+      <publishTime>05/03/2020 14:06:56</publishTime>
+    </File>
+    <File Include="images/compute_16.png">
+      <publishTime>06/14/2020 17:36:32</publishTime>
+    </File>
+    <File Include="images/create_pay_24.png">
+      <publishTime>05/02/2020 15:36:42</publishTime>
+    </File>
+    <File Include="images/delete_16.png">
+      <publishTime>06/16/2020 16:11:52</publishTime>
+    </File>
+    <File Include="images/deptY_24.png">
+      <publishTime>05/01/2020 10:55:12</publishTime>
+    </File>
+    <File Include="images/dept_24.png">
+      <publishTime>04/30/2020 20:52:52</publishTime>
+    </File>
+    <File Include="images/desig_24.png">
+      <publishTime>05/01/2020 11:16:24</publishTime>
+    </File>
+    <File Include="images/dtr_24.png">
+      <publishTime>04/27/2020 11:36:06</publishTime>
+    </File>
+    <File Include="images/email_24.png">
+      <publishTime>04/26/2020 19:42:50</publishTime>
+    </File>
+    <File Include="images/email_28.png">
+      <publishTime>04/26/2020 19:33:30</publishTime>
+    </File>
+    <File Include="images/email_33.png">
+      <publishTime>04/26/2020 19:14:50</publishTime>
+    </File>
+    <File Include="images/emp-shift_24.png">
+      <publishTime>04/27/2020 17:22:30</publishTime>
+    </File>
+    <File Include="images/empinfo_24.png">
+      <publishTime>05/03/2020 12:28:44</publishTime>
+    </File>
+    <File Include="images/emp_24.png">
+      <publishTime>04/30/2020 20:41:58</publishTime>
+    </File>
+    <File Include="images/entry_24.png">
+      <publishTime>04/27/2020 17:37:28</publishTime>
+    </File>
+    <File Include="images/excel-logo_24.png">
+      <publishTime>04/27/2020 18:07:20</publishTime>
+    </File>
+    <File Include="images/Exit_16.png">
+      <publishTime>11/08/2022 22:41:18</publishTime>
+    </File>
+    <File Include="images/FI_icon24.png">
+      <publishTime>11/09/2022 14:19:02</publishTime>
+    </File>
+    <File Include="images/Forms_24.png">
+      <publishTime>05/14/2020 14:14:20</publishTime>
+    </File>
+    <File Include="images/govt_all_24.png">
+      <publishTime>05/02/2020 19:19:34</publishTime>
+    </File>
+    <File Include="images/home_16.png">
+      <publishTime>04/25/2020 12:14:36</publishTime>
+    </File>
+    <File Include="images/hr forms_dload_24.png">
+      <publishTime>05/03/2020 13:25:28</publishTime>
+    </File>
+    <File Include="images/job_desc_24.png">
+      <publishTime>05/14/2020 10:38:38</publishTime>
+    </File>
+    <File Include="images/leaveapp_24.png">
+      <publishTime>05/02/2020 19:33:10</publishTime>
+    </File>
+    <File Include="images/leavemast_24.png">
+      <publishTime>05/02/2020 20:30:14</publishTime>
+    </File>
+    <File Include="images/leavemast_app_24.png">
+      <publishTime>05/02/2020 21:06:56</publishTime>
+    </File>
+    <File Include="images/leavemast_gwr_24.png">
+      <publishTime>05/02/2020 20:49:18</publishTime>
+    </File>
+    <File Include="images/leavemast_hol_24.png">
+      <publishTime>05/02/2020 21:16:40</publishTime>
+    </File>
+    <File Include="images/leavemast_report_24.png">
+      <publishTime>05/02/2020 21:11:44</publishTime>
+    </File>
+    <File Include="images/leavemast_setup_24.png">
+      <publishTime>05/02/2020 20:49:18</publishTime>
+    </File>
+    <File Include="images/letter_24.png">
+      <publishTime>05/14/2020 14:20:04</publishTime>
+    </File>
+    <File Include="images/load5_16.png">
+      <publishTime>05/26/2020 09:28:38</publishTime>
+    </File>
+    <File Include="images/load_16.png">
+      <publishTime>05/04/2020 11:54:56</publishTime>
+    </File>
+    <File Include="images/loan_w_24.png">
+      <publishTime>05/03/2020 13:18:18</publishTime>
+    </File>
+    <File Include="images/logout_16.png">
+      <publishTime>05/02/2020 11:51:40</publishTime>
+    </File>
+    <File Include="images/log_gwr_24.png">
+      <publishTime>05/03/2020 12:05:28</publishTime>
+    </File>
+    <File Include="images/master-file_24.png">
+      <publishTime>04/30/2020 20:41:58</publishTime>
+    </File>
+    <File Include="images/menu_24.png">
+      <publishTime>05/01/2020 18:42:02</publishTime>
+    </File>
+    <File Include="images/MMicon24.png">
+      <publishTime>11/09/2022 14:13:02</publishTime>
+    </File>
+    <File Include="images/modules-icon_16.png">
+      <publishTime>04/25/2020 12:14:36</publishTime>
+    </File>
+    <File Include="images/modules-icon_28.png">
+      <publishTime>04/25/2020 12:14:36</publishTime>
+    </File>
+    <File Include="images/new_16.png">
+      <publishTime>05/03/2020 14:06:56</publishTime>
+    </File>
+    <File Include="images/new_app_24.png">
+      <publishTime>05/14/2020 14:45:32</publishTime>
+    </File>
+    <File Include="images/price_24.png">
+      <publishTime>05/02/2020 17:12:52</publishTime>
+    </File>
+    <File Include="images/Print_16.png">
+      <publishTime>05/21/2020 10:00:34</publishTime>
+    </File>
+    <File Include="images/Process_40px.png">
+      <publishTime>04/10/2023 16:35:02</publishTime>
+    </File>
+    <File Include="images/profile_24.png">
+      <publishTime>04/30/2020 20:41:58</publishTime>
+    </File>
+    <File Include="images/recruitment_24.png">
+      <publishTime>05/01/2020 11:58:34</publishTime>
+    </File>
+    <File Include="images/report-emp_24.png">
+      <publishTime>05/01/2020 11:58:34</publishTime>
+    </File>
+    <File Include="images/report_16.png">
+      <publishTime>05/25/2020 13:55:18</publishTime>
+    </File>
+    <File Include="images/report_24.png">
+      <publishTime>04/27/2020 18:39:26</publishTime>
+    </File>
+    <File Include="images/Requisition_24.png">
+      <publishTime>05/14/2020 10:25:38</publishTime>
+    </File>
+    <File Include="images/reset_16.png">
+      <publishTime>06/16/2020 16:11:34</publishTime>
+    </File>
+    <File Include="images/SalesDist_24.png">
+      <publishTime>11/08/2022 21:42:26</publishTime>
+    </File>
+    <File Include="images/salgrade2_24.png">
+      <publishTime>05/01/2020 11:16:56</publishTime>
+    </File>
+    <File Include="images/save_16.png">
+      <publishTime>05/03/2020 14:06:56</publishTime>
+    </File>
+    <File Include="images/search16c1.png">
+      <publishTime>05/03/2020 21:07:02</publishTime>
+    </File>
+    <File Include="images/Search_16.png">
+      <publishTime>11/18/2022 10:28:44</publishTime>
+    </File>
+    <File Include="images/Search_red16.png">
+      <publishTime>11/18/2022 10:31:54</publishTime>
+    </File>
+    <File Include="images/selectedtab.GIF">
+      <publishTime>05/30/2020 11:42:22</publishTime>
+    </File>
+    <File Include="images/selfservice_24.png">
+      <publishTime>04/26/2020 19:42:50</publishTime>
+    </File>
+    <File Include="images/selfservice_28.png">
+      <publishTime>04/26/2020 19:33:30</publishTime>
+    </File>
+    <File Include="images/selfservice_33.png">
+      <publishTime>04/26/2020 19:14:50</publishTime>
+    </File>
+    <File Include="images/selfservice_w_24.png">
+      <publishTime>05/03/2020 12:50:12</publishTime>
+    </File>
+    <File Include="images/super_24.png">
+      <publishTime>05/01/2020 11:25:50</publishTime>
+    </File>
+    <File Include="images/sup_24.png">
+      <publishTime>05/14/2020 13:44:24</publishTime>
+    </File>
+    <File Include="images/tabb.gif">
+      <publishTime>05/30/2020 11:42:42</publishTime>
+    </File>
+    <File Include="images/tag_16.png">
+      <publishTime>05/03/2020 19:33:52</publishTime>
+    </File>
+    <File Include="images/Time-keep_24.png">
+      <publishTime>04/27/2020 11:13:28</publishTime>
+    </File>
+    <File Include="images/time_log_24.png">
+      <publishTime>04/27/2020 18:26:54</publishTime>
+    </File>
+    <File Include="images/tools_16.png">
+      <publishTime>04/25/2020 12:14:36</publishTime>
+    </File>
+    <File Include="images/travel_24.png">
+      <publishTime>04/27/2020 18:34:56</publishTime>
+    </File>
+    <File Include="images/unselectedtab.GIF">
+      <publishTime>05/30/2020 11:42:36</publishTime>
+    </File>
+    <File Include="images/user-location_24.png">
+      <publishTime>05/01/2020 10:57:16</publishTime>
+    </File>
+    <File Include="images/user_24.png">
+      <publishTime>05/03/2020 11:47:32</publishTime>
+    </File>
+    <File Include="images/user_grp_24.png">
+      <publishTime>05/03/2020 11:47:32</publishTime>
+    </File>
+    <File Include="images/user_info_24.png">
+      <publishTime>01/22/2024 09:55:55</publishTime>
+    </File>
+    <File Include="images/view_16.png">
+      <publishTime>04/25/2020 12:14:36</publishTime>
+    </File>
+    <File Include="InventoryReports.aspx">
+      <publishTime>04/16/2024 08:53:11</publishTime>
+    </File>
+    <File Include="JournalVoucher.aspx">
+      <publishTime>01/22/2024 10:10:21</publishTime>
+    </File>
+    <File Include="JVPosting.aspx">
+      <publishTime>07/22/2023 08:52:08</publishTime>
+    </File>
+    <File Include="LabMonitoring.aspx">
+      <publishTime>11/03/2023 16:54:56</publishTime>
+    </File>
+    <File Include="Liquidation.aspx">
+      <publishTime>01/25/2023 22:10:06</publishTime>
+    </File>
+    <File Include="login.aspx">
+      <publishTime>04/10/2024 14:04:51</publishTime>
+    </File>
+    <File Include="logout.aspx">
+      <publishTime>01/21/2023 08:17:42</publishTime>
+    </File>
+    <File Include="MaterialManagement.aspx">
+      <publishTime>01/15/2024 13:14:48</publishTime>
+    </File>
+    <File Include="MM.master">
+      <publishTime>01/23/2024 08:40:17</publishTime>
+    </File>
+    <File Include="MMReports.aspx">
+      <publishTime>10/24/2023 09:46:32</publishTime>
+    </File>
+    <File Include="MyMenu.master">
+      <publishTime>03/20/2023 17:30:36</publishTime>
+    </File>
+    <File Include="NewPass.aspx">
+      <publishTime>04/04/2024 09:50:34</publishTime>
+    </File>
+    <File Include="POreports.aspx">
+      <publishTime>05/09/2023 11:27:54</publishTime>
+    </File>
+    <File Include="ReportViewer.aspx">
+      <publishTime>05/09/2023 19:09:50</publishTime>
+    </File>
+    <File Include="SalesAndDist.aspx">
+      <publishTime>04/13/2023 11:14:34</publishTime>
+    </File>
+    <File Include="SalesInvoice.aspx">
+      <publishTime>01/25/2023 22:12:48</publishTime>
+    </File>
+    <File Include="SalesmanModule.aspx">
+      <publishTime>02/21/2023 13:22:26</publishTime>
+    </File>
+    <File Include="SalesOrder.aspx">
+      <publishTime>10/25/2023 13:43:48</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1.min.js">
+      <publishTime>11/19/2022 18:03:56</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.13.2.custom/jquery-ui-1.13.2.custom/AUTHORS.txt">
+      <publishTime>02/15/2023 09:39:48</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.13.2.custom/jquery-ui-1.13.2.custom/external/jquery/jquery.js">
+      <publishTime>02/15/2023 09:39:48</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.13.2.custom/jquery-ui-1.13.2.custom/images/ui-icons_444444_256x240.png">
+      <publishTime>02/15/2023 09:39:48</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.13.2.custom/jquery-ui-1.13.2.custom/images/ui-icons_555555_256x240.png">
+      <publishTime>02/15/2023 09:39:48</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.13.2.custom/jquery-ui-1.13.2.custom/images/ui-icons_777620_256x240.png">
+      <publishTime>02/15/2023 09:39:48</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.13.2.custom/jquery-ui-1.13.2.custom/images/ui-icons_777777_256x240.png">
+      <publishTime>02/15/2023 09:39:48</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.13.2.custom/jquery-ui-1.13.2.custom/images/ui-icons_cc0000_256x240.png">
+      <publishTime>02/15/2023 09:39:48</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.13.2.custom/jquery-ui-1.13.2.custom/images/ui-icons_ffffff_256x240.png">
+      <publishTime>02/15/2023 09:39:48</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.13.2.custom/jquery-ui-1.13.2.custom/index.html">
+      <publishTime>02/15/2023 09:39:48</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.13.2.custom/jquery-ui-1.13.2.custom/jquery-ui.css">
+      <publishTime>02/15/2023 09:39:48</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.13.2.custom/jquery-ui-1.13.2.custom/jquery-ui.js">
+      <publishTime>02/15/2023 09:39:48</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.13.2.custom/jquery-ui-1.13.2.custom/jquery-ui.min.css">
+      <publishTime>02/15/2023 09:39:48</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.13.2.custom/jquery-ui-1.13.2.custom/jquery-ui.min.js">
+      <publishTime>02/15/2023 09:39:48</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.13.2.custom/jquery-ui-1.13.2.custom/jquery-ui.structure.css">
+      <publishTime>02/15/2023 09:39:48</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.13.2.custom/jquery-ui-1.13.2.custom/jquery-ui.structure.min.css">
+      <publishTime>02/15/2023 09:39:48</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.13.2.custom/jquery-ui-1.13.2.custom/jquery-ui.theme.css">
+      <publishTime>02/15/2023 09:39:48</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.13.2.custom/jquery-ui-1.13.2.custom/jquery-ui.theme.min.css">
+      <publishTime>02/15/2023 09:39:48</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.13.2.custom/jquery-ui-1.13.2.custom/LICENSE.txt">
+      <publishTime>02/15/2023 09:39:48</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.13.2.custom/jquery-ui-1.13.2.custom/package.json">
+      <publishTime>02/15/2023 09:39:48</publishTime>
+    </File>
+    <File Include="Scripts/ScrollableGridViewPlugin_ASP.NetAJAXmin.js">
+      <publishTime>11/19/2022 18:03:56</publishTime>
+    </File>
+    <File Include="SD.master">
+      <publishTime>10/22/2023 20:29:54</publishTime>
+    </File>
+    <File Include="SDReports.aspx">
+      <publishTime>04/25/2023 20:53:24</publishTime>
+    </File>
+    <File Include="SDrepViewer.aspx">
+      <publishTime>10/25/2023 15:20:36</publishTime>
+    </File>
+    <File Include="SmnAccessMobile.aspx">
+      <publishTime>05/06/2023 11:02:26</publishTime>
+    </File>
+    <File Include="SOapp.aspx">
+      <publishTime>01/25/2023 22:16:16</publishTime>
+    </File>
+    <File Include="UserDetails.aspx">
+      <publishTime>04/04/2024 13:00:40</publishTime>
+    </File>
+    <File Include="UserMaintenance.aspx">
+      <publishTime>07/24/2023 14:12:32</publishTime>
+    </File>
+    <File Include="UserMgt.aspx">
+      <publishTime>07/22/2023 10:49:30</publishTime>
+    </File>
+    <File Include="VoidApproval.aspx">
+      <publishTime>05/08/2023 17:54:46</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>05/13/2024 17:11:38</publishTime>
+    </File>
+    <File Include="Webcam_Plugin/jquery.webcam.js">
+      <publishTime>06/02/2014 15:07:10</publishTime>
+    </File>
+    <File Include="Webcam_Plugin/jscam.swf">
+      <publishTime>06/02/2014 15:07:10</publishTime>
+    </File>
+    <File Include="Webcam_Plugin/jscam_canvas_only.swf">
+      <publishTime>06/02/2014 15:07:10</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,93 @@
+﻿<%@ Master Language="VB" MasterPageFile="~/AOS100_main.Master" AutoEventWireup="false" CodeBehind="Admin.master.vb" Inherits="AOS100web.Admin" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+	<%--<link href="css/Main_Master.css" rel="stylesheet" />--%>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+	<link href="css/TreeView.css" rel="stylesheet" />
+	<br />
+	<br />
+	<style type="text/css">
+		div {
+			z-index: 9999;
+		}
+	</style>
+
+	<table style="font-family: Segoe UI; float: left; position: absolute;">
+		<tr>
+			<td style="height: auto; width: auto; float: left; padding-left: 0px; margin-left: 1px; border-top-width: 2px; border-top-color: red; border-top-style: solid;">
+				<asp:Panel ID="Panel1" runat="server" BorderWidth="1px" BorderColor="WhiteSmoke" Width="282px" Height="828px" BackColor="#ffffcc">
+					<asp:TreeView ID="tvwMenuItems" runat="server" BorderColor="#ffffcc" BorderStyle="Solid" ForeColor="Black" Style=" margin-top: 1px; margin-left: 1px; margin-left: 1px; margin-bottom: 1px; padding-left: 2px; width: 98%"
+						Font-Names="Segoe UI" Font-Size="10pt" BorderWidth="1px" NodeStyle-HorizontalPadding="5px" SelectedNodeStyle-BackColor="#ffff66" BackColor="#ffffcc" RootNodeStyle-Font-Bold="true" ShowExpandCollapse="False">
+
+						<Nodes>
+							<asp:TreeNode ImageUrl="~/images/adminLogo_24.png" Text="Administrator" Value="Administrator">
+								<asp:TreeNode Text="" Value="AdminHead"></asp:TreeNode>
+							</asp:TreeNode>
+
+							<asp:TreeNode Text="Void Document" Value="VoidDocument">
+								<asp:TreeNode Text="Void Request" Value="VoidRequest"></asp:TreeNode>
+								<asp:TreeNode Text="Void Approval" Value="VoidApproval"></asp:TreeNode>
+							</asp:TreeNode>
+
+							<asp:TreeNode Text="User Maintenance" Value="UserMaintenance">
+								<asp:TreeNode Text="User Manager" Value="UserManager"></asp:TreeNode>
+								<asp:TreeNode Text="Group Access" Value="GroupAccess"></asp:TreeNode>
+								<asp:TreeNode Text="Authorization Config" Value="AuthorizationConfig"></asp:TreeNode>
+							</asp:TreeNode>
+
+							<asp:TreeNode Text="System Configuration" Value="SysConfig">
+								<asp:TreeNode Text="System Default" Value="SystemDefault"></asp:TreeNode>
+								<asp:TreeNode Text="Document Setup" Value="DocumentSetup"></asp:TreeNode>
+							</asp:TreeNode>
+
+							<asp:TreeNode Text="Others" Value="Others">
+								<asp:TreeNode Text="Clinic Monitoring" Value="ClinicMon"></asp:TreeNode>
+							</asp:TreeNode>
+
+						</Nodes>
+						<ParentNodeStyle BackColor="#0066FF" />
+					</asp:TreeView>
+				</asp:Panel>
+			</td>
+
+			<td style="height: auto; width: auto; float: left; margin-top: 0px; padding-top: 0px;">
+
+				<div>
+
+					<asp:ContentPlaceHolder ID="ContentOfAdministrator" runat="server">
+
+						<%--<style type="text/css">
+								div {
+									z-index: 9999;
+								}
+							</style>--%>
+					</asp:ContentPlaceHolder>
+
+				</div>
+			</td>
+
+
+		</tr>
+
+		<tr style="height: 20px; background-color: #0c487a; text-align:center; ">
+			<td style=" height: auto; width: auto; float: left; margin-top: 0px; padding-top: 0px; text-align: left" colspan="12">
+				&nbsp;&nbsp;
+				<asp:Label ID="lblUserID" runat="server" Font-Size="Smaller" ForeColor="White"></asp:Label>
+				&nbsp;&nbsp;
+				<asp:Label ID="lblGrp" runat="server" Font-Size="Smaller" ForeColor="White"></asp:Label>
+				&nbsp;&nbsp;
+				<asp:CheckBox ID="CheckBox1" runat="server" AutoPostBack="true" Text="Hide Side Menu" Font-Size="Small" ForeColor="White"/>
+			</td>
+
+		</tr>
+
+	</table>
+
+</asp:Content>
+
+<%--<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
+</asp:Content>--%>
+
+
+

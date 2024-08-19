@@ -1,0 +1,4009 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+HRIS100web
+</name>
+</assembly>
+<members>
+<member name="F:HRIS100web.BDayList.CrystalReportViewer1">
+	<summary>
+CrystalReportViewer1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.BDayList.CrystalReportSource1">
+	<summary>
+CrystalReportSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.PayIDmgt.lbNew">
+	<summary>
+lbNew control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.PayIDmgt.lbSave">
+	<summary>
+lbSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.PayIDmgt.lbPrint">
+	<summary>
+lbPrint control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.PayIDmgt.lbDelete">
+	<summary>
+lbDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.PayIDmgt.lbClose">
+	<summary>
+lbClose control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.PayIDmgt.CheckBox1">
+	<summary>
+CheckBox1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.PayIDmgt.tsEditStat">
+	<summary>
+tsEditStat control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.PayIDmgt.txtPayIDNo">
+	<summary>
+txtPayIDNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.PayIDmgt.cboPayType">
+	<summary>
+cboPayType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.PayIDmgt.dpDateFr">
+	<summary>
+dpDateFr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.PayIDmgt.dpDateTo">
+	<summary>
+dpDateTo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.PayIDmgt.txtNoDays">
+	<summary>
+txtNoDays control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.PayIDmgt.dpTransDate">
+	<summary>
+dpTransDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.PayIDmgt.cboPaySeq">
+	<summary>
+cboPaySeq control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.PayIDmgt.cboStat">
+	<summary>
+cboStat control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.PayIDmgt.dpCommFr">
+	<summary>
+dpCommFr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.PayIDmgt.dpCommTo">
+	<summary>
+dpCommTo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.PayIDmgt.dgvPayMgt">
+	<summary>
+dgvPayMgt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.HRIS100_main.head">
+	<summary>
+head control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.HRIS100_main.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.HRIS100_main.txtShtCut">
+	<summary>
+txtShtCut control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.HRIS100_main.btnSCut">
+	<summary>
+btnSCut control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.HRIS100_main.lblCoName">
+	<summary>
+lblCoName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.HRIS100_main.lblUserName">
+	<summary>
+lblUserName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.HRIS100_main.ContentPlaceHolder1">
+	<summary>
+ContentPlaceHolder1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.HRIS100_main.ContentPlaceHolder2">
+	<summary>
+ContentPlaceHolder2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.SelfService.ContentOfSelfService">
+	<summary>
+ContentOfSelfService control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.PayBIRtableWT.cboYear">
+	<summary>
+cboYear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.PayBIRtableWT.cboPayType">
+	<summary>
+cboPayType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.PayBIRtableWT.lblEffRem">
+	<summary>
+lblEffRem control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.PayBIRtableWT.dgvReport">
+	<summary>
+dgvReport control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.PayBIRtableWT.dgvReport2">
+	<summary>
+dgvReport2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.PayBIRtableWT.HyperLink1">
+	<summary>
+HyperLink1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Employee.lbNew">
+	<summary>
+lbNew control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Employee.lbSave">
+	<summary>
+lbSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Employee.lbPrint">
+	<summary>
+lbPrint control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Employee.lbDelete">
+	<summary>
+lbDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Employee.lbClose">
+	<summary>
+lbClose control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Employee.imgCapture">
+	<summary>
+imgCapture control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Employee.txtEmpNo">
+	<summary>
+txtEmpNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Employee.cboTitle">
+	<summary>
+cboTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Employee.txtFirstName">
+	<summary>
+txtFirstName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Employee.txtMiddleName">
+	<summary>
+txtMiddleName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Employee.txtLastName">
+	<summary>
+txtLastName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Employee.cboEmpType">
+	<summary>
+cboEmpType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Employee.cboCategory">
+	<summary>
+cboCategory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Employee.txtEmpAppNo">
+	<summary>
+txtEmpAppNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Employee.cboMainPayType">
+	<summary>
+cboMainPayType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Employee.cboDesignation">
+	<summary>
+cboDesignation control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Employee.txtTIN">
+	<summary>
+txtTIN control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Employee.txtSSSno">
+	<summary>
+txtSSSno control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Employee.txtHMDFno">
+	<summary>
+txtHMDFno control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Employee.txtPHno">
+	<summary>
+txtPHno control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Employee.cboVLSLstat">
+	<summary>
+cboVLSLstat control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Employee.lblCCNo">
+	<summary>
+lblCCNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Employee.btnOpen">
+	<summary>
+btnOpen control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Employee.btnCapture">
+	<summary>
+btnCapture control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Employee.cboCoName">
+	<summary>
+cboCoName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Employee.cboBranch">
+	<summary>
+cboBranch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Employee.cboDept">
+	<summary>
+cboDept control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Employee.cboJobLoc">
+	<summary>
+cboJobLoc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Employee.dpDateHired">
+	<summary>
+dpDateHired control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Employee.dpEndo">
+	<summary>
+dpEndo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Employee.txtVenNo">
+	<summary>
+txtVenNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Employee.cboEmpStat">
+	<summary>
+cboEmpStat control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Employee.txtSearch">
+	<summary>
+txtSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Employee.btnSearch">
+	<summary>
+btnSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Employee.RadioButton1">
+	<summary>
+RadioButton1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Employee.RadioButton2">
+	<summary>
+RadioButton2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Employee.RadioButton3">
+	<summary>
+RadioButton3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Employee.RadioButton4">
+	<summary>
+RadioButton4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Employee.RadioButton5">
+	<summary>
+RadioButton5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Employee.cboOthers">
+	<summary>
+cboOthers control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Employee.btnRadioBt">
+	<summary>
+btnRadioBt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Employee.RadioButton6">
+	<summary>
+RadioButton6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Employee.RadioButton7">
+	<summary>
+RadioButton7 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Employee.dgvReport">
+	<summary>
+dgvReport control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Ded.lbNew">
+	<summary>
+lbNew control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Ded.lbSave">
+	<summary>
+lbSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Ded.lbPrint">
+	<summary>
+lbPrint control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Ded.lbDelete">
+	<summary>
+lbDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Ded.lbClose">
+	<summary>
+lbClose control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Ded.lblPayType">
+	<summary>
+lblPayType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Ded.tssStatT9">
+	<summary>
+tssStatT9 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Ded.cboCoName">
+	<summary>
+cboCoName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Ded.lbCoName">
+	<summary>
+lbCoName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Ded.cboDept">
+	<summary>
+cboDept control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Ded.lbDept">
+	<summary>
+lbDept control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Ded.lblMsg">
+	<summary>
+lblMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Ded.RadioButton1">
+	<summary>
+RadioButton1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Ded.RadioButton2">
+	<summary>
+RadioButton2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Ded.cboCCtr">
+	<summary>
+cboCCtr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Ded.lbCCtr">
+	<summary>
+lbCCtr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Ded.lblEmpNoDig">
+	<summary>
+lblEmpNoDig control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Ded.cboEmpNameT1">
+	<summary>
+cboEmpNameT1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Ded.lbEmpName">
+	<summary>
+lbEmpName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Ded.txtSearch">
+	<summary>
+txtSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Ded.lbSearch">
+	<summary>
+lbSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Ded.cboLoanType">
+	<summary>
+cboLoanType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Ded.txtLoanAmt">
+	<summary>
+txtLoanAmt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Ded.txtAmortAmt">
+	<summary>
+txtAmortAmt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Ded.txtLoanTerm">
+	<summary>
+txtLoanTerm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Ded.cboLoanDedSeq">
+	<summary>
+cboLoanDedSeq control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Ded.dpLoanStart">
+	<summary>
+dpLoanStart control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Ded.dpLoanEnd">
+	<summary>
+dpLoanEnd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Ded.cboLoanStat">
+	<summary>
+cboLoanStat control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Ded.txtRemarks">
+	<summary>
+txtRemarks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Ded.txtLoanRefNo">
+	<summary>
+txtLoanRefNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Ded.txtIDno">
+	<summary>
+txtIDno control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Ded.dgvEmployee">
+	<summary>
+dgvEmployee control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.payssstable.dgvReport">
+	<summary>
+dgvReport control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.payssstable.HyperLink1">
+	<summary>
+HyperLink1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Fin.lbNew">
+	<summary>
+lbNew control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Fin.lbSave">
+	<summary>
+lbSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Fin.lbPrint">
+	<summary>
+lbPrint control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Fin.lbDelete">
+	<summary>
+lbDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Fin.lbClose">
+	<summary>
+lbClose control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Fin.tssOTset">
+	<summary>
+tssOTset control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Fin.tssLateSet">
+	<summary>
+tssLateSet control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Fin.cboWorkDaysYr">
+	<summary>
+cboWorkDaysYr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Fin.cboCoName">
+	<summary>
+cboCoName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Fin.lbCoName">
+	<summary>
+lbCoName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Fin.cboDept">
+	<summary>
+cboDept control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Fin.lbDept">
+	<summary>
+lbDept control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Fin.lblMsg">
+	<summary>
+lblMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Fin.cboCCtr">
+	<summary>
+cboCCtr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Fin.lbCCtr">
+	<summary>
+lbCCtr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Fin.lblEmpNoDig">
+	<summary>
+lblEmpNoDig control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Fin.cboEmpNameT1">
+	<summary>
+cboEmpNameT1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Fin.lbEmpName">
+	<summary>
+lbEmpName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Fin.txtSearch">
+	<summary>
+txtSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Fin.lbSearch">
+	<summary>
+lbSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Fin.cboPayType">
+	<summary>
+cboPayType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Fin.txtBasicSalary">
+	<summary>
+txtBasicSalary control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Fin.txtTransAllow">
+	<summary>
+txtTransAllow control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Fin.txtMealAllow">
+	<summary>
+txtMealAllow control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Fin.txtOthrAllow">
+	<summary>
+txtOthrAllow control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Fin.txtFullRate">
+	<summary>
+txtFullRate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Fin.txtRatePerDay">
+	<summary>
+txtRatePerDay control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Fin.txtRatePerHr">
+	<summary>
+txtRatePerHr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Fin.txtRatePerDayD">
+	<summary>
+txtRatePerDayD control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Fin.txtRatePerHrD">
+	<summary>
+txtRatePerHrD control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Fin.txtCommRate">
+	<summary>
+txtCommRate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Fin.dpEmpDateStart">
+	<summary>
+dpEmpDateStart control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Fin.dpEmpDateEnd">
+	<summary>
+dpEmpDateEnd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Fin.cboPayMode">
+	<summary>
+cboPayMode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Fin.cboBankName">
+	<summary>
+cboBankName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Fin.txtBankAcctNo">
+	<summary>
+txtBankAcctNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Fin.cboSSSprem">
+	<summary>
+cboSSSprem control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Fin.cboPHprem">
+	<summary>
+cboPHprem control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Fin.cboHDMFprem">
+	<summary>
+cboHDMFprem control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Fin.txtAddlHDMF">
+	<summary>
+txtAddlHDMF control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Fin.cboTax">
+	<summary>
+cboTax control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Fin.txtTransIDemp">
+	<summary>
+txtTransIDemp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Fin.TStripStatuslblEdit">
+	<summary>
+TStripStatuslblEdit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Fin.dtp_SSMonth">
+	<summary>
+dtp_SSMonth control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Fin.cboSSReason">
+	<summary>
+cboSSReason control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Fin.txt_Remarks">
+	<summary>
+txt_Remarks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Fin.cboEmpSalStat">
+	<summary>
+cboEmpSalStat control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Mast_Emp_Fin.dgvEmployee">
+	<summary>
+dgvEmployee control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll.ContentOfPayroll">
+	<summary>
+ContentOfPayroll control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.lbNew">
+	<summary>
+lbNew control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.lbSave">
+	<summary>
+lbSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.lbDelete">
+	<summary>
+lbDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.lbClose">
+	<summary>
+lbClose control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.lblProcType">
+	<summary>
+lblProcType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.RadioButton3">
+	<summary>
+RadioButton3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.RadioButton4">
+	<summary>
+RadioButton4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.lblPayType2">
+	<summary>
+lblPayType2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.rbMonthly">
+	<summary>
+rbMonthly control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.rbWeekly">
+	<summary>
+rbWeekly control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.rbConfi">
+	<summary>
+rbConfi control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.rbOthers">
+	<summary>
+rbOthers control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.rm13thMon">
+	<summary>
+rm13thMon control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.lbCoName">
+	<summary>
+lbCoName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.lbCCtr">
+	<summary>
+lbCCtr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.txtPayIDNo">
+	<summary>
+txtPayIDNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.lblPayType">
+	<summary>
+lblPayType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.cboCoName">
+	<summary>
+cboCoName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.cboCCtr">
+	<summary>
+cboCCtr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.cboBranch">
+	<summary>
+cboBranch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.dpTransDate">
+	<summary>
+dpTransDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.lblPayIDstat">
+	<summary>
+lblPayIDstat control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.lblPayPeriodFr">
+	<summary>
+lblPayPeriodFr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.lblPayPeriodTo">
+	<summary>
+lblPayPeriodTo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.lblPaySeq">
+	<summary>
+lblPaySeq control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.TStripStatuslblEdit">
+	<summary>
+TStripStatuslblEdit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.tssOTset">
+	<summary>
+tssOTset control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.tssLateSet">
+	<summary>
+tssLateSet control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.tssTaxExtra">
+	<summary>
+tssTaxExtra control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.lblSSSTable">
+	<summary>
+lblSSSTable control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.lblEmpDig">
+	<summary>
+lblEmpDig control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.lblTC">
+	<summary>
+lblTC control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.lblConfMsg">
+	<summary>
+lblConfMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.RadioButton1">
+	<summary>
+RadioButton1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.RadioButton2">
+	<summary>
+RadioButton2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.lblProcRbutt">
+	<summary>
+lblProcRbutt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.lblMsgBox">
+	<summary>
+lblMsgBox control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.cbAnnualTax">
+	<summary>
+cbAnnualTax control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.cbGovtCont">
+	<summary>
+cbGovtCont control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.cbSSS">
+	<summary>
+cbSSS control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.cbPh">
+	<summary>
+cbPh control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.cbHDMF">
+	<summary>
+cbHDMF control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.cbTax">
+	<summary>
+cbTax control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.ScriptManager1">
+	<summary>
+ScriptManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.TabContainer1">
+	<summary>
+TabContainer1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.TabPanel1">
+	<summary>
+TabPanel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.dgvEarn">
+	<summary>
+dgvEarn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.lblCol01">
+	<summary>
+lblCol01 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.lblCol02">
+	<summary>
+lblCol02 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.lblCol03">
+	<summary>
+lblCol03 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.lblCol04">
+	<summary>
+lblCol04 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.lblCol05">
+	<summary>
+lblCol05 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.lblCol06">
+	<summary>
+lblCol06 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.lblCol07">
+	<summary>
+lblCol07 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.lblCol08">
+	<summary>
+lblCol08 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.lblCol09">
+	<summary>
+lblCol09 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.TabPanel2">
+	<summary>
+TabPanel2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.dgvDeduction">
+	<summary>
+dgvDeduction control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.lblDed0">
+	<summary>
+lblDed0 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.lblDed1">
+	<summary>
+lblDed1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.lblDed2">
+	<summary>
+lblDed2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.lblDed3">
+	<summary>
+lblDed3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.lblDed4">
+	<summary>
+lblDed4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.lblDed5">
+	<summary>
+lblDed5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.lblDed6">
+	<summary>
+lblDed6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.TabPanel3">
+	<summary>
+TabPanel3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.dgvNetPay">
+	<summary>
+dgvNetPay control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.lblNet0">
+	<summary>
+lblNet0 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.lblNet1">
+	<summary>
+lblNet1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.lblNet2">
+	<summary>
+lblNet2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.TabPanel4">
+	<summary>
+TabPanel4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.cboEmpName">
+	<summary>
+cboEmpName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.lbEmpName">
+	<summary>
+lbEmpName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.dgvSplOTdet">
+	<summary>
+dgvSplOTdet control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.TabPanel5">
+	<summary>
+TabPanel5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.cboEmpNameLoan">
+	<summary>
+cboEmpNameLoan control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.lbEmpNameLoan">
+	<summary>
+lbEmpNameLoan control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.dgvLoanDet">
+	<summary>
+dgvLoanDet control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.TabPanel6">
+	<summary>
+TabPanel6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.btnUpdateGL">
+	<summary>
+btnUpdateGL control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.dgvGLentry">
+	<summary>
+dgvGLentry control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.lblTotDRamt">
+	<summary>
+lblTotDRamt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.lblTotCRamt">
+	<summary>
+lblTotCRamt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.TabPanel7">
+	<summary>
+TabPanel7 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.dgvStatus">
+	<summary>
+dgvStatus control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.TabPanel8">
+	<summary>
+TabPanel8 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Earn.dgvPayMgt">
+	<summary>
+dgvPayMgt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.PMDS.ContentOfPMDS">
+	<summary>
+ContentOfPMDS control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.PayPHtable.HyperLink1">
+	<summary>
+HyperLink1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.lbNew">
+	<summary>
+lbNew control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.lbSave">
+	<summary>
+lbSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.lbPrint">
+	<summary>
+lbPrint control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.lbDelete">
+	<summary>
+lbDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.lbClose">
+	<summary>
+lbClose control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.lblProcType">
+	<summary>
+lblProcType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.RadioButton3">
+	<summary>
+RadioButton3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.RadioButton4">
+	<summary>
+RadioButton4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.lbCoName">
+	<summary>
+lbCoName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.lbCCtr">
+	<summary>
+lbCCtr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.cboCoName">
+	<summary>
+cboCoName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.cboCCtr">
+	<summary>
+cboCCtr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.dpTransDate">
+	<summary>
+dpTransDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.lblConfMsg">
+	<summary>
+lblConfMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.RadioButton1">
+	<summary>
+RadioButton1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.RadioButton2">
+	<summary>
+RadioButton2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.lblProcRbutt">
+	<summary>
+lblProcRbutt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.lblMsgBox">
+	<summary>
+lblMsgBox control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.tssStat">
+	<summary>
+tssStat control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.tssProc">
+	<summary>
+tssProc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.tssNewEntry">
+	<summary>
+tssNewEntry control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.tssCompStat">
+	<summary>
+tssCompStat control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.ScriptManager1">
+	<summary>
+ScriptManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.TabContainer1">
+	<summary>
+TabContainer1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.TabPanel1">
+	<summary>
+TabPanel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.lbGrpName">
+	<summary>
+lbGrpName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.lblNetRate">
+	<summary>
+lblNetRate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.lblTaxRate">
+	<summary>
+lblTaxRate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.lbJobWorks">
+	<summary>
+lbJobWorks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.cboGrpName">
+	<summary>
+cboGrpName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.cboOTDdesc">
+	<summary>
+cboOTDdesc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.txtRate">
+	<summary>
+txtRate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.txtQty">
+	<summary>
+txtQty control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.txtAmt">
+	<summary>
+txtAmt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.txtNetAmt">
+	<summary>
+txtNetAmt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.txtTransID">
+	<summary>
+txtTransID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.dgvOTD">
+	<summary>
+dgvOTD control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.lbldgvTotal">
+	<summary>
+lbldgvTotal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.lblNetAmt">
+	<summary>
+lblNetAmt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.TabPanel2">
+	<summary>
+TabPanel2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.cboDistType">
+	<summary>
+cboDistType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.btnCompDist">
+	<summary>
+btnCompDist control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.btnReLoadEmp">
+	<summary>
+btnReLoadEmp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.lblDist">
+	<summary>
+lblDist control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.RadioButton5">
+	<summary>
+RadioButton5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.RadioButton6">
+	<summary>
+RadioButton6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.txtEmpNameT2">
+	<summary>
+txtEmpNameT2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.txtShrRate">
+	<summary>
+txtShrRate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.txtShrAmt">
+	<summary>
+txtShrAmt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.txtTransIDt2">
+	<summary>
+txtTransIDt2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.dgvT2">
+	<summary>
+dgvT2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.lblMgrNameT2">
+	<summary>
+lblMgrNameT2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.lblMgrAmt">
+	<summary>
+lblMgrAmt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.lblTotalT2">
+	<summary>
+lblTotalT2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.TabPanel3">
+	<summary>
+TabPanel3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.lblEmpDig">
+	<summary>
+lblEmpDig control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.txtGrpCodeNo">
+	<summary>
+txtGrpCodeNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.txtGrpName">
+	<summary>
+txtGrpName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.cboSupName">
+	<summary>
+cboSupName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.cboMgrName">
+	<summary>
+cboMgrName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.cboStat">
+	<summary>
+cboStat control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.cboEmpNameT3">
+	<summary>
+cboEmpNameT3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.dgvT3A">
+	<summary>
+dgvT3A control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.btnResetT3A">
+	<summary>
+btnResetT3A control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.btnSaveT3A">
+	<summary>
+btnSaveT3A control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.btnDelT3A">
+	<summary>
+btnDelT3A control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.dgvT3B">
+	<summary>
+dgvT3B control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.btnResetT3B">
+	<summary>
+btnResetT3B control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.btnSaveT3B">
+	<summary>
+btnSaveT3B control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.btnDelT3B">
+	<summary>
+btnDelT3B control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.TabPanel4">
+	<summary>
+TabPanel4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.txtPayIDNo">
+	<summary>
+txtPayIDNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.lblPayType">
+	<summary>
+lblPayType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.lblPayPeriodFr">
+	<summary>
+lblPayPeriodFr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.lblPayPeriodTo">
+	<summary>
+lblPayPeriodTo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.lblPaySeq">
+	<summary>
+lblPaySeq control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.TabPanel5">
+	<summary>
+TabPanel5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.TabPanel6">
+	<summary>
+TabPanel6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Pc_Grp.dgvPayMgt">
+	<summary>
+dgvPayMgt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Reports.cboReport">
+	<summary>
+cboReport control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Reports.dpDateFr">
+	<summary>
+dpDateFr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Reports.lblMsgBox">
+	<summary>
+lblMsgBox control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Reports.cboFormat">
+	<summary>
+cboFormat control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Reports.dpDateTo">
+	<summary>
+dpDateTo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Reports.cboFilter1">
+	<summary>
+cboFilter1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Reports.cboPayIDno">
+	<summary>
+cboPayIDno control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Reports.cboFilter2">
+	<summary>
+cboFilter2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Recruitment.ContentOfRecruit">
+	<summary>
+ContentOfRecruit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Training.ContentOfTraining">
+	<summary>
+ContentOfTraining control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Leave.ContentOfLeave">
+	<summary>
+ContentOfLeave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.AttenDTR.CheckBox2">
+	<summary>
+CheckBox2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.AttenDTR.lbladmOpt">
+	<summary>
+lbladmOpt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.AttenDTR.cboPayType">
+	<summary>
+cboPayType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.AttenDTR.dpTransDate">
+	<summary>
+dpTransDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.AttenDTR.cboCCtr">
+	<summary>
+cboCCtr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.AttenDTR.cboLoc">
+	<summary>
+cboLoc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.AttenDTR.lblEditStat">
+	<summary>
+lblEditStat control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.AttenDTR.lblMsg">
+	<summary>
+lblMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.AttenDTR.rbCCy">
+	<summary>
+rbCCy control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.AttenDTR.rbCCn">
+	<summary>
+rbCCn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.AttenDTR.lblDays">
+	<summary>
+lblDays control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.AttenDTR.cbHoliday">
+	<summary>
+cbHoliday control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.AttenDTR.lblRateND">
+	<summary>
+lblRateND control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.AttenDTR.cboNdiffRate">
+	<summary>
+cboNdiffRate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.AttenDTR.lblSaveStat">
+	<summary>
+lblSaveStat control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.AttenDTR.btnSave">
+	<summary>
+btnSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.AttenDTR.dgvManualAttend">
+	<summary>
+dgvManualAttend control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_ReportViewer.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_ReportViewer.CrystalReportViewer1">
+	<summary>
+CrystalReportViewer1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_ReportViewer.CrystalReportSource1">
+	<summary>
+CrystalReportSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:HRIS100web.My.MyWebExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:HRIS100web.My.MyWebExtension.User">
+	<summary>
+ Returns information for the current Web user.
+ </summary>
+</member><member name="P:HRIS100web.My.MyWebExtension.Request">
+	<summary>
+ Returns Request object.
+ </summary>
+</member><member name="P:HRIS100web.My.MyWebExtension.Response">
+	<summary>
+ Returns Response object.
+ </summary>
+</member><member name="P:HRIS100web.My.MyWebExtension.Log">
+	<summary>
+ Returns the Asp log object.
+ </summary>
+</member><member name="T:HRIS100web.My.MyWebExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:HRIS100web.Attend_Manual_OthOT.lbNew">
+	<summary>
+lbNew control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual_OthOT.lbSave">
+	<summary>
+lbSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual_OthOT.lbPrint">
+	<summary>
+lbPrint control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual_OthOT.lbDelete">
+	<summary>
+lbDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual_OthOT.lbClose">
+	<summary>
+lbClose control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual_OthOT.lblProcType">
+	<summary>
+lblProcType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual_OthOT.RadioButton3">
+	<summary>
+RadioButton3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual_OthOT.RadioButton4">
+	<summary>
+RadioButton4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual_OthOT.lbCoName">
+	<summary>
+lbCoName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual_OthOT.lbCCtr">
+	<summary>
+lbCCtr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual_OthOT.txtPayIDNo">
+	<summary>
+txtPayIDNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual_OthOT.lblPayType">
+	<summary>
+lblPayType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual_OthOT.cboCoName">
+	<summary>
+cboCoName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual_OthOT.cboCCtr">
+	<summary>
+cboCCtr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual_OthOT.cboBranch">
+	<summary>
+cboBranch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual_OthOT.dpTransDate">
+	<summary>
+dpTransDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual_OthOT.lblPayIDstat">
+	<summary>
+lblPayIDstat control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual_OthOT.lblPayPeriodFr">
+	<summary>
+lblPayPeriodFr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual_OthOT.lblPayPeriodTo">
+	<summary>
+lblPayPeriodTo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual_OthOT.lblPaySeq">
+	<summary>
+lblPaySeq control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual_OthOT.tsTabStat">
+	<summary>
+tsTabStat control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual_OthOT.tssAttSource">
+	<summary>
+tssAttSource control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual_OthOT.tssDTRstat">
+	<summary>
+tssDTRstat control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual_OthOT.RadioButton5">
+	<summary>
+RadioButton5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual_OthOT.RadioButton6">
+	<summary>
+RadioButton6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual_OthOT.lblConfMsg">
+	<summary>
+lblConfMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual_OthOT.RadioButton1">
+	<summary>
+RadioButton1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual_OthOT.RadioButton2">
+	<summary>
+RadioButton2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual_OthOT.lblProcRbutt">
+	<summary>
+lblProcRbutt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual_OthOT.lblEmpNoDig">
+	<summary>
+lblEmpNoDig control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual_OthOT.lblMsgBox">
+	<summary>
+lblMsgBox control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual_OthOT.cboEmpName">
+	<summary>
+cboEmpName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual_OthOT.cboOTdesc">
+	<summary>
+cboOTdesc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual_OthOT.txtOThrs">
+	<summary>
+txtOThrs control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual_OthOT.dgvOTime">
+	<summary>
+dgvOTime control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Masters.ContentOfMasters">
+	<summary>
+ContentOfMasters control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attendance.ContentOfAttendance">
+	<summary>
+ContentOfAttendance control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.login.cboDbase">
+	<summary>
+cboDbase control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.login.cboCompany">
+	<summary>
+cboCompany control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.login.txtUserID">
+	<summary>
+txtUserID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.login.txtPassWord">
+	<summary>
+txtPassWord control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.login.btnLogin">
+	<summary>
+btnLogin control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.login.lblLog_Error">
+	<summary>
+lblLog_Error control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.login.lblStrike">
+	<summary>
+lblStrike control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:HRIS100web.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:HRIS100web.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:HRIS100web.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="F:HRIS100web.Admin.ContentOfAdministrator">
+	<summary>
+ContentOfAdministrator control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual.lbNew">
+	<summary>
+lbNew control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual.lbSave">
+	<summary>
+lbSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual.lbPrint">
+	<summary>
+lbPrint control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual.lbDelete">
+	<summary>
+lbDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual.lbClose">
+	<summary>
+lbClose control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual.lblProcType">
+	<summary>
+lblProcType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual.RadioButton3">
+	<summary>
+RadioButton3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual.RadioButton4">
+	<summary>
+RadioButton4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual.lbCoName">
+	<summary>
+lbCoName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual.lbCCtr">
+	<summary>
+lbCCtr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual.txtPayIDNo">
+	<summary>
+txtPayIDNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual.lblPayType">
+	<summary>
+lblPayType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual.cboCoName">
+	<summary>
+cboCoName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual.cboCCtr">
+	<summary>
+cboCCtr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual.cboBranch">
+	<summary>
+cboBranch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual.dpTransDate">
+	<summary>
+dpTransDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual.lblPayIDstat">
+	<summary>
+lblPayIDstat control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual.lblPayPeriodFr">
+	<summary>
+lblPayPeriodFr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual.lblPayPeriodTo">
+	<summary>
+lblPayPeriodTo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual.lblPaySeq">
+	<summary>
+lblPaySeq control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual.tsTabStat">
+	<summary>
+tsTabStat control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual.tssAttSource">
+	<summary>
+tssAttSource control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual.tssDTRstat">
+	<summary>
+tssDTRstat control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual.btnLoadDTR">
+	<summary>
+btnLoadDTR control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual.CheckBox1">
+	<summary>
+CheckBox1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual.CheckBox2">
+	<summary>
+CheckBox2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual.lblConfMsg">
+	<summary>
+lblConfMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual.RadioButton1">
+	<summary>
+RadioButton1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual.RadioButton2">
+	<summary>
+RadioButton2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual.lblProcRbutt">
+	<summary>
+lblProcRbutt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Attend_Manual.dgvManualAttend">
+	<summary>
+dgvManualAttend control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.PayHDMFtable.HyperLink1">
+	<summary>
+HyperLink1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Adjt.lbNew">
+	<summary>
+lbNew control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Adjt.lbSave">
+	<summary>
+lbSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Adjt.lbDelete">
+	<summary>
+lbDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Adjt.lbClose">
+	<summary>
+lbClose control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Adjt.lblProcType">
+	<summary>
+lblProcType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Adjt.RadioButton3">
+	<summary>
+RadioButton3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Adjt.RadioButton4">
+	<summary>
+RadioButton4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Adjt.lblPayType2">
+	<summary>
+lblPayType2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Adjt.rbMonthly">
+	<summary>
+rbMonthly control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Adjt.rbWeekly">
+	<summary>
+rbWeekly control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Adjt.rbConfi">
+	<summary>
+rbConfi control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Adjt.rbOthers">
+	<summary>
+rbOthers control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Adjt.rm13thMon">
+	<summary>
+rm13thMon control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Adjt.lbCoName">
+	<summary>
+lbCoName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Adjt.lbCCtr">
+	<summary>
+lbCCtr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Adjt.txtPayIDNo">
+	<summary>
+txtPayIDNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Adjt.lblPayType">
+	<summary>
+lblPayType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Adjt.cboCoName">
+	<summary>
+cboCoName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Adjt.cboCCtr">
+	<summary>
+cboCCtr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Adjt.cboBranch">
+	<summary>
+cboBranch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Adjt.dpTransDate">
+	<summary>
+dpTransDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Adjt.lblPayIDstat">
+	<summary>
+lblPayIDstat control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Adjt.lblPayPeriodFr">
+	<summary>
+lblPayPeriodFr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Adjt.lblPayPeriodTo">
+	<summary>
+lblPayPeriodTo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Adjt.lblPaySeq">
+	<summary>
+lblPaySeq control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Adjt.TStripStatuslblEdit">
+	<summary>
+TStripStatuslblEdit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Adjt.tssOTset">
+	<summary>
+tssOTset control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Adjt.tssLateSet">
+	<summary>
+tssLateSet control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Adjt.tssTaxExtra">
+	<summary>
+tssTaxExtra control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Adjt.lblSSSTable">
+	<summary>
+lblSSSTable control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Adjt.lblEmpDig">
+	<summary>
+lblEmpDig control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Adjt.lblTC">
+	<summary>
+lblTC control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Adjt.lblProcRbutt">
+	<summary>
+lblProcRbutt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Adjt.lblMsgBox">
+	<summary>
+lblMsgBox control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Adjt.lblConfMsg">
+	<summary>
+lblConfMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Adjt.RadioButton1">
+	<summary>
+RadioButton1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Adjt.RadioButton2">
+	<summary>
+RadioButton2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Adjt.ScriptManager1">
+	<summary>
+ScriptManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Adjt.TabContainer1">
+	<summary>
+TabContainer1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Adjt.TabPanel1">
+	<summary>
+TabPanel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Adjt.lbEmpName">
+	<summary>
+lbEmpName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Adjt.cboEmpNameOTA">
+	<summary>
+cboEmpNameOTA control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Adjt.cboOTAdesc">
+	<summary>
+cboOTAdesc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Adjt.txtOTAamt">
+	<summary>
+txtOTAamt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Adjt.txtTransIDota">
+	<summary>
+txtTransIDota control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Adjt.dgvEmpAdjt">
+	<summary>
+dgvEmpAdjt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Adjt.TabPanel2">
+	<summary>
+TabPanel2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Adjt.lbEmpOTD">
+	<summary>
+lbEmpOTD control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Adjt.cboEmpName">
+	<summary>
+cboEmpName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Adjt.cboOTDdesc">
+	<summary>
+cboOTDdesc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Adjt.txtDecAmt">
+	<summary>
+txtDecAmt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Adjt.txtTransID">
+	<summary>
+txtTransID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Adjt.txtLoanRefNo">
+	<summary>
+txtLoanRefNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Adjt.dgvOTD">
+	<summary>
+dgvOTD control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Adjt.TabPanel3">
+	<summary>
+TabPanel3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:HRIS100web.Payroll_Adjt.dgvPayMgt">
+	<summary>
+dgvPayMgt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>

@@ -1,0 +1,101 @@
+﻿.MyLogo {
+	float: left;
+	position: fixed;
+	padding-top: 15px;
+	padding-left: 15px;
+	margin-top: 10px;
+	margin-left: 10px;
+	/*height: 33px;*/
+	height: 75px;
+	width: 75px;
+}
+
+.NewLogo {
+	margin-top:4px;
+	margin-left:3px;
+}
+#MyTopper {
+	float: left;
+	width: 100%;
+	height: 58px;
+	margin-top: -8px;
+	margin-left: -6px;
+	position: fixed;
+	background-color: #5c99cd;
+	border: 1px solid #5c99cd;
+}
+
+#MyShrtCut {
+	float: left;
+	margin-top: -59px;
+	margin-left: 75px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.ScutBox {
+	float: left;
+	margin-left: 0px;
+	margin-top: 1px;
+	font-family: Calibri;
+	font-size: 12px;
+	text-align: center;
+	min-height: 17px;
+	width: 175px;
+	padding-top: 1px;
+	padding-bottom: 5px;
+	padding-left: 1px;
+	border: 1px solid silver;
+	border-bottom-left-radius: 6px;
+	border-top-left-radius: 6px;
+	/*border-color: blue;*/
+}
+
+.ScutBox input:focus
+{
+    border: 2px;
+	border-color:blue;
+    outline: none;
+}
+
+.ScutBtn {
+	float: left;
+	margin-top: 2px;
+	margin-left: 2px;
+	border: 1px solid silver;
+	border-bottom-right-radius: 6px;
+	border-top-right-radius: 6px;
+	height: 24px;
+	width: 30px;
+	padding-bottom: 3px;
+	padding-top: 1px;
+	padding-left: -5px;
+}
+
+#CoName
+{
+    float: left;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-family: 'Segoe UI';
+    font-size: 14px;
+    text-align: left;
+    color: white;
+}
+.NewCoName {
+	float: left;
+	margin-top: 1px;
+	margin-left: 2px;
+}
+/*#Msg_adm
+{
+    float: left;
+    margin-top: 9px;
+    margin-left: 5px;
+    margin-right: 10px;
+    font-family: sans-serif;
+    font-size: 11px;
+    color: white;
+}*/
+
+

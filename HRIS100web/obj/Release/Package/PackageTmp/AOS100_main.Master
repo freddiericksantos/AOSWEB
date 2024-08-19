@@ -1,0 +1,168 @@
+﻿<%@ Master Language="VB" AutoEventWireup="true" CodeBehind="AOS100_main.Master.vb" Inherits="AOS100web.AOS100_main" %>
+
+<!DOCTYPE html>
+<%--<meta name="viewport" content="width=device-width,initial-scale=1.0">--%>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+	<link rel="icon" href="images/AOSLogo6_nb60.ico" type="image/x-icon"/>
+	<title>AOS100 web</title>
+	<asp:ContentPlaceHolder ID="head" runat="server">
+	</asp:ContentPlaceHolder>
+	<style type="text/css">
+		div {
+			z-index: 9999;
+		}
+
+		/*@media only screen and
+		(min-device-width : screen px) and
+		(max-device-width : screen px) {
+		  #id{style}
+		}		*/
+	</style>
+
+	<script src="adminlte/adminlte.min.js"></script>
+	<script src="cdn/jquery3.5.js"></script>
+
+	<%--new script starts here--%>
+	 
+
+	<%--new script ends here--%>
+
+</head>
+
+
+<body>
+	<form id="form1" runat="server">
+
+		<link href="css/Main_Master.css" rel="stylesheet" />
+
+		<div id="MyTopper">
+			<div id="MyLogo">
+				<asp:ImageButton ID="ImgLogo" runat="server" ImageUrl="~/images/AOSLogo6_nb60.png" CssClass="NewLogo" />
+				<%--&nbsp;&nbsp;<asp:UpdateProgress ID="UpdateProgress1"  runat="server"></asp:UpdateProgress>--%>
+				<%--<asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>--%>
+				<%--<img src="images/AOS100ver_web_Logo_60.png" />--%>
+			</div>
+
+			<div id="MyShrtCut">
+				<asp:TextBox ID="txtShtCut" runat="server" placeholder="Input Shortcut Here" AutoPostBack="true" CssClass="ScutBox" ToolTip="Input Shortcut" Text=""></asp:TextBox>
+				<asp:Button ID="btnSCut" runat="server" CssClass="ScutBtn" Text=""></asp:Button>
+
+				<div id="CoName" >
+					<table style="width: 100%; font-family: 'Segoe UI'; float: left; margin-top: -7px; padding-top: 0px">
+						<tr style="height: 26px; background-color: #5c99cd"; >
+							<td style="width: 350px; background-color: #5c99cd; text-align: left; padding-left: 0px; font-family: 'Segoe UI'; font-size: small;">
+								<asp:Label ID="lblCoName" runat="server" Text="Company Name" Font-Size="Medium" Font-Bold="true" Font-Names="Segoe UI" ></asp:Label>
+							</td>
+
+							<td style="width: auto; background-color: #5c99cd; text-align: center; padding-left: 0px; font-family: 'Segoe UI'; font-size: small;">
+								<asp:Label ID="lblMsgBox" runat="server" Text=""></asp:Label>
+							</td>
+
+							<td style="width: 530px; background-color: #5c99cd; text-align: right; padding-left: 0px; font-family: 'Segoe UI'; font-size: small;">
+								
+							</td>
+
+							<td style="width: auto; background-color: #5c99cd; text-align: right; padding-left: 0px; font-family: 'Segoe UI'; font-size: small;">
+								<asp:Label ID="lblUserID" runat="server" Text="" ForeColor="#5c99cd"></asp:Label>
+							</td>
+
+							<td style="width: 30px; background-color: #5c99cd; text-align: right; padding-left: 0px; font-family: 'Segoe UI'; font-size: small;">
+								
+							</td>
+
+							<td style="width: auto; background-color: #5c99cd; text-align: right; padding-left: 0px; font-family: 'Segoe UI'; font-size: small;">
+								<asp:Label ID="lblGrp" runat="server" Text="" ForeColor="#5c99cd"></asp:Label>
+								<asp:Label ID="lblBA" runat="server" Text="" ForeColor="#5c99cd"></asp:Label>
+
+							</td>
+							
+						</tr>
+
+					</table>
+
+					<%--<asp:Label ID="lblCoName" runat="server" Text="Company Name" Font-Size="Medium" Font-Bold="true" Font-Names="Segoe UI" ></asp:Label>
+					 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					 <asp:Label ID="lblMsgBox" runat="server" Text="No Message"></asp:Label>
+					 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					 Last Doc No.:
+					 &nbsp;&nbsp;
+					<asp:Label ID="lblLastDoc" runat="server" Text="Doc. No." ></asp:Label>--%>
+
+				</div>
+				
+
+			</div>
+
+			
+		</div>
+
+		<%--<div id="CoName">
+					<asp:Label ID="lblCoName" runat="server" Text="Company Name" CssClass="NewCoName"></asp:Label>
+				</div>--%>
+
+		<br />
+
+		<link href="css/Main_adm.css" rel="stylesheet" />
+
+		<div class="menu">
+			<ul>
+				<li><a href="Home.aspx">Home</a></li>
+				<li><a href="FinancialAccounting.aspx" target="_blank">Financial Accounting</a></li>
+				<li><a href="MaterialManagement.aspx" target="_blank">Material Management</a></li>
+				<li><a href="SalesAndDist.aspx" target="_blank">Sales & Distribution</a></li>
+				<li><a href="Administrator.aspx" target="_blank">Administrator</a></li>
+				<li><a href="#" target="_blank">HRIS</a></li>
+				<li><a href="#">My Menu</a></li>
+				<li><a href="Help.aspx">Help</a>
+					<%--<ul>
+						<li><a href="#">About</a></li>
+						<li><a href="#">User's Manual</a></li>
+					</ul>--%>
+				</li>
+			</ul>
+			<div class="UserName">
+				<ul>
+					<li>
+						<asp:Label ID="lblUserName" runat="server" Text="Logged Out" Font-Underline="True" ></asp:Label>
+						<ul>
+							<li><a href="#"><span>
+								<img src="images/user_info_24.png" /></span> Update User's Info </a></li>
+							<li><a href="ChangePassword.aspx"><span>
+								<img src="images/changepass_16.png" /></span> Change Password </a></li>
+							<li><a href="logout.aspx" onclick="javascript:return confirm('Are you sure you want to log out?');"><span>
+								<img src="images/logout_16.png" /></span> Logout </a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+
+		<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+			<style type="text/css">
+				div {
+					z-index: 9999;
+				}
+			</style>
+
+			<%-- <td style="height:auto; width:auto; float: left; margin-top: 0px">
+
+
+			 </td>--%>
+		</asp:ContentPlaceHolder>
+		<div>
+
+			<asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+
+			</asp:ContentPlaceHolder>
+		</div>
+
+		<br />
+		<br />
+
+	</form>
+</body>
+
+</html>

@@ -1,0 +1,126 @@
+﻿<%@ Master Language="VB" MasterPageFile="~/AOS100_main.Master" AutoEventWireup="false" CodeBehind="MM.master.vb" Inherits="AOS100web.MM" %>
+
+<%--<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>--%>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+	<link href="css/TreeView.css" rel="stylesheet" />
+	<br />
+	<br />
+	<style type="text/css">
+		div {
+			z-index: 9999;
+		}
+	</style>
+
+	<table style="font-family: Segoe UI; float: left; position: absolute;">
+		<tr>
+			<td style="height: auto; width: auto; float: left; padding-left: 0px; margin-left: 1px; border-top-width: 2px; border-top-color: red; border-top-style: solid;">
+				<asp:Panel ID="Panel1" runat="server" BorderWidth="1px" BorderColor="WhiteSmoke" Width="282px" Height="828px" BackColor="#ffffcc">
+					<asp:TreeView ID="tvwMenuItems" runat="server" BorderColor="#ffffcc" BorderStyle="Solid" ForeColor="Black" Style="margin-top: 1px; margin-left: 1px; margin-left: 1px; margin-bottom: 1px"
+						Width="278px" Font-Names="Segoe UI" Font-Size="10pt" BorderWidth="1px" NodeStyle-HorizontalPadding="5px" SelectedNodeStyle-BackColor="#ffff66" BackColor="#ffffcc" RootNodeStyle-Font-Bold="true" ShowExpandCollapse="False">
+
+						<Nodes>
+							<asp:TreeNode ImageUrl="~/images/MMicon24.png" Text="Material Management" Value="MaterialManagement">
+								<asp:TreeNode Text="" Value="MM"></asp:TreeNode>
+							</asp:TreeNode>
+
+							<asp:TreeNode Text="Inventory" Value="Inventory">
+								<asp:TreeNode Text="Receiving (MMRR)" Value="MMRR"></asp:TreeNode>
+								<asp:TreeNode Text="Issuance (DO)" Value="DO"></asp:TreeNode>
+								<asp:TreeNode Text="Return (WRR)" Value="WRR"></asp:TreeNode>
+								
+							</asp:TreeNode>
+
+							<asp:TreeNode Text="Barcode/Serial Utilities" Value="BarCode">
+								<asp:TreeNode Text="FG Serial Input" Value="FGSerialIn"></asp:TreeNode>
+								<asp:TreeNode Text="Issuance With Serial" Value="IssSerial"></asp:TreeNode>
+								<asp:TreeNode Text="Serial Monitoring" Value="SMon"></asp:TreeNode>
+								
+							</asp:TreeNode>
+
+
+							<asp:TreeNode Text="MM Reports" Value="MMReports">
+								<asp:TreeNode Text="Registers" Value="MMreg"></asp:TreeNode>
+								<asp:TreeNode Text="Inventory Reports" Value="InvRep"></asp:TreeNode>
+								<asp:TreeNode Text="Stock Card" Value="StockCard"></asp:TreeNode>
+								<asp:TreeNode Text="Monitoring" Value="InvMon"></asp:TreeNode>
+								
+								</asp:TreeNode>
+							<asp:TreeNode Text="Inventory Adjustment" Value="Inventory Adjustment">
+								<asp:TreeNode Text="Adjustment View" Value="Adjustment View"></asp:TreeNode>
+								<asp:TreeNode Text="Adjustment Approval" Value="Adjustment Approval"></asp:TreeNode>
+								<asp:TreeNode Text="Scrapping Approval" Value="Scrapping Approval"></asp:TreeNode>
+							</asp:TreeNode>
+
+							<asp:TreeNode Text="Production" Value="Production">
+								<asp:TreeNode Text="Prodn Worksheet" Value="Prodn Worksheet"></asp:TreeNode>
+								<asp:TreeNode Text="Prodn Request" Value="Prodn Request"></asp:TreeNode>
+								<asp:TreeNode Text="Prodn Approval" Value="Prodn Approval"></asp:TreeNode>
+								<asp:TreeNode Text="Lot No. Maintenance" Value="Lot No. Maintenance"></asp:TreeNode>
+								<asp:TreeNode Text="FG Serial Input" Value="FG Serial Input"></asp:TreeNode>
+								<asp:TreeNode Text="Lab Monitoring" Value="LabMon"></asp:TreeNode>
+							</asp:TreeNode>
+
+							<asp:TreeNode Text="Material to Material" Value="Material to Material">
+								<asp:TreeNode Text="MM Request" Value="MM Request"></asp:TreeNode>
+								<asp:TreeNode Text="MM Posting" Value="MM Posting"></asp:TreeNode>
+							</asp:TreeNode>
+
+							<asp:TreeNode Text="Purchasing" Value="Purchasing">
+								<asp:TreeNode Text="RIV Request" Value="RIV Request"></asp:TreeNode>
+								<asp:TreeNode Text="RIV Approval" Value="RIV Approval"></asp:TreeNode>
+								<asp:TreeNode Text="PO Processing" Value="PO Processing"></asp:TreeNode>
+								<asp:TreeNode Text="PO Approval" Value="PO Approval"></asp:TreeNode>
+								<asp:TreeNode Text="PO Reports" Value="PO Reports"></asp:TreeNode>
+							</asp:TreeNode>
+
+							<asp:TreeNode Text="Masterdata Maintenance" Value="Masterdata Maintenance">
+								<asp:TreeNode Text="Material" Value="Material"></asp:TreeNode>
+								<asp:TreeNode Text="Plant/Warehouse" Value="Plant/Warehouse"></asp:TreeNode>
+								<asp:TreeNode Text="Formulation Maintenance" Value="Formulation Maintenance"></asp:TreeNode>
+							</asp:TreeNode>
+
+
+						</Nodes>
+						<ParentNodeStyle BackColor="#0066FF" />
+					</asp:TreeView>
+				</asp:Panel>
+			</td>
+
+			<td style="height: auto; width: 1550px; float: left; margin-top: 0px; padding-top: 0px; ">
+								
+					<asp:ContentPlaceHolder ID="ContentOfMM" runat="server" >
+
+						<%--<style type="text/css">
+							div {
+									z-index: 9999;
+								}
+							</style>--%>
+											
+					</asp:ContentPlaceHolder>
+						
+			</td>
+
+			<%--<td style="height: auto; width: 10px; float: left; margin-top: 0px; padding-top: 0px; "></td>--%>
+
+		</tr>
+
+		<tr style="height: 20px; background-color: #0c487a; text-align:center; ">
+			<td style=" height: auto; width: 100%; float: left; margin-top: 0px; padding-top: 0px; text-align: left" colspan="12">
+				&nbsp;&nbsp;
+				<asp:Label ID="lblUserID" runat="server" Font-Size="Smaller" ForeColor="White"></asp:Label>
+				&nbsp;&nbsp;
+				<asp:Label ID="lblGrp" runat="server" Font-Size="Smaller" ForeColor="White"></asp:Label>
+				&nbsp;&nbsp;
+				<asp:CheckBox ID="CheckBox1" runat="server" AutoPostBack="true" Text="Hide Side Menu" Font-Size="Small" ForeColor="White"/>
+			</td>
+
+		</tr>
+
+	</table>
+
+</asp:Content>
+
+<%--<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
+</asp:Content>--%>

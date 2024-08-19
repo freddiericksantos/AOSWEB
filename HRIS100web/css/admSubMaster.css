@@ -1,0 +1,98 @@
+﻿body 
+{
+    background-color: #b1bbd7;
+    /*background: url('/images/HRIS_wpaper_1000x667.png') no-repeat;*/
+    background-position: center;
+    background-position-y:top;
+    padding: 0px;
+}
+.Login
+{
+    width: 350px; 
+    height:300px; 
+    background: #5c99cd;
+    border-radius:10px;
+}
+.Login_Form
+{
+    margin-top: 0px;
+    width: 300px; 
+    height:260px; 
+    background:#ffffff; 
+    border-radius:10px;
+    border-bottom: 3px solid #b5caff;
+}
+.Login_Co
+{
+    float: left; 
+    margin: 20px 0px 0px 18px; 
+    width: 260px; 
+    height: 22px;
+    padding-left: 5px; 
+    font-family: Calibri; 
+    font-size: 15px; 
+    font-weight: bold;
+    border: 1px solid #ccc; 
+    background-position: 335px 5px; 
+    border-radius: 6px;
+}
+.Login_un
+{
+    float: left; 
+    margin: 20px 0px 0px 18px; 
+    width: 253px; 
+    height: 17px; 
+    text-align: center;
+    padding-left: 5px; 
+    font-family: Calibri; 
+    font-size: 14px; 
+    font-weight: bold;
+    border: 1px solid #ccc; 
+    /*background-position: 335px 5px;*/ 
+    border-radius: 6px;
+}
+.Login_Form input:focus
+{
+    border: 1px solid #244180;
+    outline: none;
+}
+.Login_pwd
+{
+    float: left; 
+    margin: 20px 0px 0px 18px; 
+    width: 253px; 
+    height: 17px; 
+    text-align: center;
+    padding-left: 5px; 
+    font-family: Calibri; 
+    font-size: 14px; 
+    font-weight: bold;
+    border: 1px solid #ccc; 
+    /*background-position: 335px 5px;*/ 
+    border-radius: 6px; 
+}
+.Login_btn 
+{
+    float: right;
+    background: #e9e9e9;
+    color: #244180;
+    font-family: Segoe UI;
+    font-size: 12px;
+    font-weight: bold;
+    border: 1px solid #244180;
+    border-radius: 6px;
+    margin-top: 20px;
+    margin-right: 32px;
+    padding-bottom: 6px;
+    height: 20px;
+    width: 120px;
+}
+.Login_adm
+{
+    float:left; 
+    margin: 20px 0px 0px 18px; 
+    font-family: Calibri; 
+    font-size:11px; 
+    padding-left: 12px;
+    font-weight: bold;
+}

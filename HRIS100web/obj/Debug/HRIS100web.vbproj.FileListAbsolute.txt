@@ -1,0 +1,11 @@
+E:\VS.NetWeb\HRIS100web\HRIS100web\bin\HRIS100web.dll.config
+E:\VS.NetWeb\HRIS100web\HRIS100web\bin\HRIS100web.dll
+E:\VS.NetWeb\HRIS100web\HRIS100web\bin\HRIS100web.pdb
+E:\VS.NetWeb\HRIS100web\HRIS100web\bin\HRIS100web.xml
+E:\VS.NetWeb\HRIS100web\HRIS100web\bin\AjaxControlToolkit.dll
+E:\VS.NetWeb\HRIS100web\HRIS100web\obj\Debug\HRIS100web.Resources.resources
+E:\VS.NetWeb\HRIS100web\HRIS100web\obj\Debug\HRIS100web.vbproj.GenerateResource.Cache
+E:\VS.NetWeb\HRIS100web\HRIS100web\obj\Debug\HRIS100web.dll
+E:\VS.NetWeb\HRIS100web\HRIS100web\obj\Debug\HRIS100web.xml
+E:\VS.NetWeb\HRIS100web\HRIS100web\obj\Debug\HRIS100web.pdb
+E:\VS.NetWeb\HRIS100web\HRIS100web\obj\Debug\HRIS100web.vbprojResolveAssemblyReference.cache
