@@ -70,7 +70,7 @@ Public Class aOS100_main
 				txtShtCut.Text = Format(CDate(vTransYear), "yyyy-MM-dd")
 
 			Case Else
-				txtShtCut.Text = "Not Found...1234567"
+				txtShtCut.Text = "Not Found..."
 
 		End Select
 	End Sub
